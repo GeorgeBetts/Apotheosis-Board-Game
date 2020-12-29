@@ -1,0 +1,81 @@
+title:
+  x: 90
+  y: 90
+  width: 635
+  height: 50
+  align: center
+  font_size: 18
+
+block:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+
+Strength:
+  extends: block
+  color: '#703529'
+  stroke_color: '#703529'
+  fill_color: '#703529'
+
+Dexterity:
+  extends: block
+  color: '#2E8B57'
+  stroke_color: '#2E8B57'
+  fill_color: '#2E8B57'
+
+Intelligence:
+  extends: block
+  color: '#283d70'
+  stroke_color: '#283d70'
+  fill_color: '#283d70'
+
+art:
+  x: 220
+  y: 240
+  width: 415
+  height: 465
+
+description:
+  x: 100
+  y: 685
+  width: 625
+  height: 275
+  valign: middle
+  align: center
+  font: 'Palatino Linotype, Sans 18'
+  color: '#e0ddd5'
+  font_size: 9
+
+value:
+  x: 100
+  y: 775
+  width: 295
+  height: 100
+  valign: middle
+  align: right
+  font_size: 30
+
+border:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+  stroke_width: 40
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3

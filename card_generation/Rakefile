@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+require 'squib'
+
+task default: [:deck]
+
+task :deck do
+  #load 'currency.rb'
+  #load 'attribute.rb'
+  #load 'combatdeck.rb'
+  load 'encounter.rb'
+  #load 'shopdeck.rb'
+end

@@ -1,0 +1,186 @@
+card:
+  font: 'Palatino Linotype, Sans 18'
+  color: '#2e3546'
+
+title:
+  extends: card
+  x: 200
+  y: 110
+  width: 435
+  height: 50
+  align: center
+  font_size: 14
+
+title-sm:
+  extends: title
+  font_size: 12
+
+art:
+  x: 285
+  y: 270
+  width: 260
+  height: 260
+
+priorityicon:
+  extends: card
+  x: 75
+  y: 75
+  width: 65
+  height: 65
+  valign: middle
+  file: icons/priority.svg
+
+priority:
+  extends: priorityicon
+  x: +140
+  font_size: 14
+
+block:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  fill_color: '#e0ddd5'
+  stroke_color: '#e0ddd5'
+
+
+Item:
+  color: '#6F3A31'
+
+Enemy:
+  color: '#703529'
+
+Event:
+  color: '#e0ddd5'
+
+Location:
+  color: '#c6934b'
+
+
+Equipment:
+  color: '#A9A9A9'
+
+bonus1:
+  extends: card
+  x: 100
+  y: 965
+  width: 295
+  height: 80
+  valign: middle
+  align: right
+  font_size: 15
+
+bonus1icon:
+  extends: bonus1
+  x: +405
+  y: 980
+  width: 60
+  height: 60
+  align: left
+
+bonus2:
+  extends: card
+  x: 350
+  y: 965
+  width: 295
+  height: 80
+  valign: middle
+  align: right
+  font_size: 15
+
+bonus2icon:
+  extends: bonus2
+  x: +655
+  y: 980
+  width: 60
+  height: 60
+  align: left
+
+bonus3:
+  extends: card
+  x: 10
+  y: 965
+  width: 125
+  height: 80
+  valign: middle
+  align: right
+  font_size: 15
+
+bonus3icon:
+  extends: bonus2
+  x: +140
+  y: 980
+  width: 60
+  height: 60
+  align: left
+
+type:
+  extends: card
+  x: 100
+  y: 540
+  width: 625
+  height: 275
+  valign: top
+  align: center
+  color: '#2e3546'
+  font_size: 7
+  font_weight: 600
+
+description:
+  extends: card
+  x: 100
+  y: 560
+  width: 625
+  height: 355
+  valign: middle
+  align: center
+  color: '#2e3546'
+  font_size: 8
+
+description-lg:
+ extends: description
+ font_size: 9
+
+description-md:
+ extends: description
+ font_size: 7
+
+description-sm:
+  extends: description
+  font_size: 7
+  height: 430
+
+description-xs:
+  extends: description
+  font_size: 6
+  height: 430
+
+subtext:
+  extends: card
+  x: 100
+  y: 820
+  width: 625
+  height: 170
+  valign: middle
+  align: center
+  color: '#2e3546'
+  font_size: 7
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+  stroke_color: '#e0ddd5'
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3
+  stroke_color: '#e0ddd5'

@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Apotheosis Game Board</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="board.css">
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <div class="banner-container"></div>
+        <div class="background-container"></div>
+
+        <div class="tile end-zone"></div>
+
+        <div class="region-container explainer-thrones">
+            <div class="region-title-container" style="height: 30%;">
+                <div class="region-title">
+                    <h1>Thrones of Olympus</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="region-container explainer-olympus">
+            <div class="region-title-container">
+                <div class="region-title">
+                    <h1>Olympus Mountains</h1>
+                </div>
+            </div>
+            <div class="region-card">
+                <div class="encounter-card"></div>
+            </div>
+        </div>
+
+        <div class="region-container explainer-hellenic">
+            <div class="region-title-container" style="height: 50%;">
+                <div class="region-title">
+                    <h1>Hellenic Plains</h1>
+                </div>
+            </div>
+            <div class="region-card">
+                <div class="encounter-card"></div>
+            </div>
+        </div>
+
+        <div class="region-container explainer-elysium">
+            <div class="region-title-container">
+                <div class="region-title">
+                    <h1>Fields of Elysium</h1>
+                </div>
+            </div>
+            <div class="region-card">
+                <div class="encounter-card"></div>
+            </div>
+        </div>
+
+        <div class="region-container explainer-styx">
+            <div class="region-title-container" style="height: 50%;">
+                <div class="region-title">
+                    <h1>The River Styx</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="region-container explainer-hades">
+            <div class="region-title-container" style="height: 50%;">
+                <div class="region-title">
+                    <h1>Hades</h1>
+                    <p>Spend life instead of drachma for movement while in Hades</p>
+                    <p>Movement in Hades is one way, once you enter you can't go back</p>
+                </div>
+            </div>
+            <div class="region-card">
+                <div class="encounter-card"></div>
+            </div>
+        </div>
+
+        <div class="row1 col1 banner-border"></div>
+        <div class="row1 col2 banner-border"></div>
+        <div class="row1 col3 banner-border"></div>
+        <div class="row1 col4 banner-border"></div>
+        <div class="row1 col5 banner-border"></div>
+        <div class="row1 col6 banner-border"></div>
+        <div class="row1 col7 banner-border"></div>
+        <div class="row1 col8 banner-border"></div>
+        <div class="row1 col9 banner-border"></div>
+        <div class="row1 col10 banner-border"></div>
+
+        <div class=" tile row2 col1 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Plains - Draw a card</h3>
+                <p style="font-size: 8pt; bottom: 28px;">If you do not possess a blessing of Hades, then move back to the Gates of Olympus</p>
+            </div>
+        </div>
+        <div class="tile row2 col2 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Casm</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col3 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Mountains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col4 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Hills</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col5 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col6 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Mountains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col7 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Plateau</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col8 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col9 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Mountains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col10 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row2 col11 olympus">
+            <div class="desc-block hellenic">
+                <h3>Mt Olympus</h3>
+                <p style="margin-left: -13px;">Conditionally allows access to the Thrones of Olympus based on your quest from Hades</p>
+            </div>
+        </div>
+
+
+        <div class="tile row3 col1 olympus">
+            <div class="desc-block hellenic">
+                <h3>Gates of Olympus</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row3 col2 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Woods</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row3 col3 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Cave</h3>
+                <h5>Draw from your personal deck</h5>
+                <p>If the card is a currency card then gain a copy</p>
+            </div>
+        </div>
+        <div class="tile row3 col4 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Hills</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row3 col5 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Mountains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row3 col6 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Shrine to Ares</h3>
+                <p>End your turn here to gain +3 attack power in your next encounter phase</p>
+            </div>
+        </div>
+        <div class="tile row3 col7 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row3 col8 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Oracle</h3>
+                <h5>Shop</h5>
+                <p style="bottom: -13px;">Pay 12 drachma to purchase a random card from the Oracle deck</p>
+            </div>
+        </div>
+        <div class="tile row3 col9 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Forest</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row3 col10 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Forest</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row3 col11 impassable-top olympus">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row4 col1">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row4 col2">
+            <div class="desc-block hellenic">
+                <h3>Settlement</h3>
+                <h5>Draw a card</h5>
+                <p>If a location card is drawn, you choose the placement</p>
+            </div>
+        </div>
+        <div class="tile row4 col3">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row4 col4">
+            <div class="desc-block hellenic">
+                <h3>Hills</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row4 col5">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row4 col6">
+            <div class="desc-block hellenic">
+                <h3>Fields</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row4 col7">
+            <div class="desc-block hellenic">
+                <h3>Woods</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row4 col8">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row4 col9">
+            <div class="desc-block hellenic">
+                <h3>City</h3>
+                <h5>Shop</h5>
+                <p style="bottom: -8px; font-size: 9pt;">Discarded equipment gets placed here, you may purchase any card in this space for 8 Drachma</p>
+            </div>
+        </div>
+        <div class="tile row4 col10">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row4 col11">
+            <div class="desc-block hellenic">
+                <h3>Fields</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row5 col1">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile card-area">
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+            <div class="card-space"></div>
+        </div>
+        <div class="tile row5 col11">
+            <div class="desc-block hellenic">
+                <h3>Woods</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row6 col1">
+            <div class="desc-block hellenic">
+                <h3>Docks</h3>
+                <h5>Travel</h5>
+                <p style="bottom: -13px;">On your next turn you may start your movement from the Shrine to Demeter</p>
+            </div>
+        </div>
+        <div class="tile row6 col11">
+            <div class="desc-block hellenic">
+                <h3>Shrine to Demeter</h3>
+                <p>End your movement here to draw two additional cards next encounter phase</p>
+            </div>
+        </div>
+
+        <div class="tile row7 col1">
+            <div class="desc-block hellenic">
+                <h3>Ruins</h3>
+                <h5>Draw two cards</h5>
+                <p>If no monsters are drawn, lose 3 health</p>
+            </div>
+        </div>
+        <div class="tile row7 col11">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row8 col1">
+            <div class="desc-block hellenic">
+                <h3>Woods</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row8 col11">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row9 col1">
+            <div class="desc-block hellenic">
+                <h3>Settlement</h3>
+                <h5>Draw a card</h5>
+                <p>If a location card is drawn, you choose the placement</p>
+            </div>
+        </div>
+        <div class="tile row9 col2">
+            <div class="desc-block hellenic">
+                <h3>Woods</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row9 col3">
+            <div class="desc-block hellenic">
+                <h3>Mountains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row9 col4">
+            <div class="desc-block hellenic">
+                <h3>Hills</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row9 col5">
+            <div class="desc-block hellenic">
+                <h3>Fields</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row9 col6">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row9 col7">
+            <div class="desc-block hellenic">
+                <h3>Forest</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row9 col8">
+            <div class="desc-block hellenic">
+                <h3>Forest</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row9 col9">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row9 col10">
+            <div class="desc-block hellenic">
+                <h3>Agora Marketplace</h3>
+                <h5>Shop</h5>
+                <p>Browse and purchase cards from the Agora Marketplace deck</p>
+            </div>
+        </div>
+        <div class="tile row9 col11">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row10 col1">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row10 col2">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row10 col3">
+            <div class="desc-block hellenic">
+                <h3>Hills</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row10 col4">
+            <div class="desc-block hellenic">
+                <h3>Shrine to Artemis</h3>
+                <p style="bottom: -1px;">Gold from monster rewards are worth double when claimed here</p>
+            </div>
+        </div>
+        <div class="tile row10 col5">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row10 col6">
+            <div class="desc-block hellenic">
+                <h3>Village</h3>
+                <p>Sell any items or equiptment here for 5 gold each</p>
+            </div>
+        </div>
+        <div class="tile row10 col7">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row10 col8">
+            <div class="desc-block hellenic">
+                <h3>Fields</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row10 col9">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row10 col10">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row10 col11">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row11 col1 elysium">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row11 col2 elysium">
+            <div class="desc-block hellenic">
+                <h3 style="margin-top: 9px;">Lake</h3>
+                <p>End your turn here to heal 2 health</p>
+            </div>
+        </div>
+        <div class="tile row11 col3 elysium">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row11 col4 elysium">
+            <div class="desc-block hellenic">
+                <h3>Swamp</h3>
+                <h5>Draw two cards</h5>
+                <p style="bottom: -14px;">If a location is drawn then you get lost in the swamp, discard it and lose 3 health</p>
+            </div>
+        </div>
+        <div class="tile row11 col5 elysium">
+            <div class="desc-block hellenic">
+                <h3>Woods</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row11 col6 elysium">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row11 col7 elysium">
+            <div class="desc-block hellenic">
+                <h3>Hills</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row11 col8 elysium">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row11 col9 elysium">
+            <div class="desc-block hellenic">
+                <h3>Settlement</h3>
+                <h5>Draw a card</h5>
+                <p>If a location card is drawn, you choose the placement</p>
+            </div>
+        </div>
+        <div class="tile row11 col10 elysium">
+            <div class="desc-block hellenic">
+                <h3>Ruins</h3>
+                <h5>Draw two cards</h5>
+                <p>If no monsters are drawn, lose 3 health</p>
+            </div>
+        </div>
+        <div class="tile row11 col11 elysium">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row12 col1 elysium">
+            <div class="desc-block hellenic">
+                <h3>Peddler</h3>
+                <h5>Shop</h5>
+                <p>Browse and purchase cards from the peddler deck</p>
+            </div>
+        </div>
+        <div class="tile row12 col2 elysium">
+            <div class="desc-block hellenic">
+                <h3>Cave</h3>
+                <h5>Draw from your personal deck</h5>
+                <p>If the card is a currency card then gain a copy</p>
+            </div>
+        </div>
+        <div class="tile row12 col3 elysium">
+            <div class="desc-block hellenic">
+                <h3>Settlement</h3>
+                <h5>Draw a card</h5>
+                <p>If a location card is drawn, you choose the placement</p>
+            </div>
+        </div>
+        <div class="tile row12 col4 elysium">
+            <div class="desc-block hellenic">
+                <h3>Woods</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row12 col5 elysium">
+            <div class="desc-block hellenic">
+                <h3>Fields</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row12 col6 elysium">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row12 col7 elysium">
+            <div class="desc-block hellenic">
+                <h3>Shrine to Athena</h3>
+                <p>End on your turn here to gain +4 defense in your next encounter phase</p>
+            </div>
+        </div>
+        <div class="tile row12 col8 elysium">
+            <div class="desc-block hellenic">
+                <h3>Mountains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row12 col9 elysium">
+            <div class="desc-block hellenic">
+                <h3>Hills</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row12 col10 elysium">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row12 col11 elysium">
+            <div class="desc-block hellenic">
+                <h3>Woods</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row13 col1 styx">
+
+        </div>
+        <div class="tile row13 col2 styx">
+
+        </div>
+        <div class="tile row13 col3 styx">
+
+        </div>
+        <div class="tile row13 col4 styx">
+
+        </div>
+        <div class="tile row13 col5 styx">
+
+        </div>
+        <div class="tile row13 col6 hades">
+            <div class="desc-block hellenic">
+                <h3>Cerberus</h3>
+                <h5>End your movement here</h5>
+                <p style="font-size: 9pt; bottom: -10px;">On your next turn you must fight Cerberus before moving, if you are defeated then move to the village</p>
+            </div>
+        </div>
+        <div class="tile row13 col7 styx">
+
+        </div>
+        <div class="tile row13 col8 styx">
+
+        </div>
+        <div class="tile row13 col9 styx">
+
+        </div>
+        <div class="tile row13 col10 styx">
+
+        </div>
+        <div class="tile row13 col11 styx">
+
+        </div>
+
+        <div class="tile row14 col1 hades">
+            <div class="desc-block hellenic">
+                <h3>Graves</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row14 col2 hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row14 col3 hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row14 col4 hades">
+            <div class="desc-block hellenic">
+                <h3>Magma Pools</h3>
+                <h5>Draw a card</h5>
+                <p style="font-size: 9pt; bottom: -6px;">Monsters drawn have -2 life, if no monsters are drawn then lose 3 health</p>
+            </div>
+        </div>
+        <div class="tile row14 col5 hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row14 col6 impassable-right hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row14 col7 hades">
+            <div class="desc-block hellenic">
+                <h3>Throne of Hades</h3>
+                <h5>Claim a quest from Hades</h5>
+                <p style="bottom: 6px;">Draw a random Hades quest card</p>
+            </div>
+        </div>
+        <div class="tile row14 col8 hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row14 col9 hades">
+            <div class="desc-block hellenic">
+                <h3>Tombs</h3>
+                <h5>Draw from your personal deck</h5>
+                <p style="font-size: 9pt; bottom: -11px;">If the card has an attack power then keep this card in your hand for your next turn</p>
+            </div>
+        </div>
+        <div class="tile row14 col10 hades">
+            <div class="desc-block hellenic">
+                <h3>Magma Pools</h3>
+                <h5>Draw a card</h5>
+                <p style="font-size: 9pt; bottom: -6px;">Monsters drawn have -2 life, if no monsters are drawn then lose 3 health</p>
+            </div>
+        </div>
+        <div class="tile row14 col11 hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+        <div class="tile row15 col1 hades">
+            <div class="desc-block hellenic">
+                <h3>Tartarus</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row15 col2 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row15 col3 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Graves</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row15 col4 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Mountains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row15 col5 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Volcano</h3>
+                <h5>End your movement here</h5>
+                <p style="font-size: 9pt;">Draw a card, if you lose combat in this space, move to Tartarus</p>
+            </div>
+        </div>
+        <div class="tile row15 col6 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Mountains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row15 col7 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Magma Pools</h3>
+                <h5>Draw a card</h5>
+                <p style="font-size: 9pt; bottom: -6px;">Monsters drawn have -2 life, if no monsters are drawn then lose 3 health</p>
+            </div>
+        </div>
+        <div class="tile row15 col8 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row15 col9 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Asphodel</h3>
+                <h5>Draw a card</h5>
+                <p style="font-size: 9pt; bottom: -6px;">Before drawing, you may discard any number of combat cards, heal 1 health for each card discarded.</p>
+            </div>
+        </div>
+        <div class="tile row15 col10 impassable-top hades">
+            <div class="desc-block hellenic">
+                <h3>Graves</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+        <div class="tile row15 col11 hades">
+            <div class="desc-block hellenic">
+                <h3>Plains</h3>
+                <h5>Draw a card</h5>
+                <p>Do not draw a card if there is already one in this space</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+title:
+  x: 90
+  y: 90
+  width: 635
+  height: 50
+  align: center
+  font_size: 18
+
+art:
+  x: 100
+  y: 220
+  width: 575
+  height: 420
+
+value:
+  x: 100
+  y: 775
+  width: 295
+  height: 100
+  valign: middle
+  align: right
+  font_size: 30
+
+costicon:
+  x: 75
+  y: 75
+  width: 65
+  height: 65
+  valign: middle
+  file: icons/crown-coin.svg
+
+cost:
+  extends: costicon
+  x: +150
+  font_size: 14
+
+icon:
+  extends: value
+  x: +405
+  y: 755
+  width: 150
+  height: 150
+  align: left
+  file: icons/crown-coin.svg
+
+border:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+  stroke_width: 40
+  radius: 16
+
+Copper:
+  extends: border
+  stroke_color: '#6F3A31'
+
+Silver:
+  extends: border
+  stroke_color: '#A9A9A9'
+
+Gold:
+  extends: border
+  stroke_color: '#DAA520'
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3

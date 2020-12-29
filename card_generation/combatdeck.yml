@@ -1,0 +1,156 @@
+card:
+  font: 'Palatino Linotype, Sans 18'
+  color: '#2e3546'
+
+title:
+  extends: card
+  x: 200
+  y: 110
+  width: 435
+  height: 50
+  align: center
+  font_size: 16
+
+title-sm:
+  extends: title
+  font_size: 14
+
+art:
+  x: 260
+  y: 280
+  width: 340
+  height: 340
+
+costicon:
+  extends: card
+  x: 75
+  y: 75
+  width: 65
+  height: 65
+  valign: middle
+  file: icons/crown-coin.svg
+
+cost:
+  extends: costicon
+  x: +150
+  font_size: 14
+
+playcosticon:
+  extends: card
+  x: 645
+  y: 85
+  width: 65
+  height: 65
+  valign: middle
+  file: icons/playcost.svg
+
+playcost:
+  extends: playcosticon
+  x: 715
+  y: 75
+  font_size: 14
+
+bonus1:
+  extends: card
+  x: 100
+  y: 965
+  width: 295
+  height: 80
+  valign: middle
+  align: right
+  font_size: 15
+
+bonus1icon:
+  extends: bonus1
+  x: +405
+  y: 975
+  width: 60
+  height: 60
+  align: left
+
+bonus2:
+  extends: card
+  x: 350
+  y: 965
+  width: 295
+  height: 80
+  valign: middle
+  align: right
+  font_size: 15
+
+bonus2icon:
+  extends: bonus2
+  x: +655
+  y: 975
+  width: 60
+  height: 60
+  align: left
+
+bonus3:
+  extends: card
+  x: 0
+  y: 965
+  width: 125
+  height: 80
+  valign: middle
+  align: right
+  font_size: 15
+
+bonus3icon:
+  extends: bonus2
+  x: +120
+  y: 975
+  width: 60
+  height: 60
+  align: left
+
+description:
+  extends: card
+  x: 100
+  y: 645
+  width: 625
+  height: 375
+  valign: middle
+  align: center
+  color: '#2e3546'
+  font_size: 10
+
+description-sm:
+  extends: description
+  font_size: 9
+
+block:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  fill_color: '#e0ddd5'
+  stroke_color: '#e0ddd5'
+
+attack:
+  color: '#703529'
+
+misc:
+  color: '#e0ddd5'
+
+defense:
+  color: '#2e3546'
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+  stroke_color: '#e0ddd5'
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3
+  stroke_color: '#e0ddd5'

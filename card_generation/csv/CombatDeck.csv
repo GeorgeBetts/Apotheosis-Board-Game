@@ -1,0 +1,295 @@
+name,cost,playcost,type,description,bonus1,bonus1value,bonus2,bonus2value,bonus3,bonus3value
+Attack,0,1,attack,+1 Attack Power,attackpower,1,,,,
+Shield Break,3,1,attack,-3 To Enemy Defense,armourpierce,3,,,,
+Shield Break,3,1,attack,-3 To Enemy Defense,armourpierce,3,,,,
+Shield Break,3,1,attack,-3 To Enemy Defense,armourpierce,3,,,,
+Shield Break,3,1,attack,-3 To Enemy Defense,armourpierce,3,,,,
+Shield Break,3,1,attack,-3 To Enemy Defense,armourpierce,3,,,,
+Backstab,1,1,attack,+1 Attack Power. Immediately add this card to your hand on purchase,attackpower,1,,,,
+Backstab,1,1,attack,+1 Attack Power. Immediately add this card to your hand on purchase,attackpower,1,,,,
+Backstab,1,1,attack,+1 Attack Power. Immediately add this card to your hand on purchase,attackpower,1,,,,
+Backstab,1,1,attack,+1 Attack Power. Immediately add this card to your hand on purchase,attackpower,1,,,,
+Frost Weapon,5,2,misc,"While in play, Augments all your attack power with the frost element",frostaugment,,,,,
+Frost Weapon,5,2,misc,"While in play, Augments all your attack power with the frost element",frostaugment,,,,,
+Frost Weapon,5,2,misc,"While in play, Augments all your attack power with the frost element",frostaugment,,,,,
+Slam,5,2,attack,"+2 Attack Power
+-1 to Enemy Defense",attackpower,2,armourpierce,1,,
+Slam,5,2,attack,"+2 Attack Power
+-1 to Enemy Defense",attackpower,2,armourpierce,1,,
+Slam,5,2,attack,"+2 Attack Power
+-1 to Enemy Defense",attackpower,2,armourpierce,1,,
+Slam,5,2,attack,"+2 Attack Power
+-1 to Enemy Defense",attackpower,2,armourpierce,1,,
+Crushing Blow,5,2,attack,+3 Attack Power,attackpower,3,,,,
+Crushing Blow,5,2,attack,+3 Attack Power,attackpower,3,,,,
+Crushing Blow,5,2,attack,+3 Attack Power,attackpower,3,,,,
+Crushing Blow,5,2,attack,+3 Attack Power,attackpower,3,,,,
+Fire Weapon,5,2,misc,"While in play, Augments all your attack power with fire",fireaugment,,,,,
+Fire Weapon,5,2,misc,"While in play, Augments all your attack power with fire",fireaugment,,,,,
+Fire Weapon,5,2,misc,"While in play, Augments all your attack power with fire",fireaugment,,,,,
+Heal,3,0,misc,"Restore 2 life value on playing this card, up to your maximum life only",life,2,,,,
+Heal,3,0,misc,"Restore 2 life value on playing this card, up to your maximum life only",life,2,,,,
+Heal,3,0,misc,"Restore 2 life value on playing this card, up to your maximum life only",life,2,,,,
+Heal,3,0,misc,"Restore 2 life value on playing this card, up to your maximum life only",life,2,,,,
+Heal,3,0,misc,"Restore 2 life value on playing this card, up to your maximum life only",life,2,,,,
+Evade,3,1,misc,While this card is in play you may choose to evade monsters,,,,,,
+Evade,3,1,misc,While this card is in play you may choose to evade monsters,,,,,,
+Evade,3,1,misc,While this card is in play you may choose to evade monsters,,,,,,
+Evade,3,1,misc,While this card is in play you may choose to evade monsters,,,,,,
+Warcry,6,1,misc,When this card is played every other player discards a card from their hand,,,,,,
+Warcry,6,1,misc,When this card is played every other player discards a card from their hand,,,,,,
+Warcry,6,1,misc,When this card is played every other player discards a card from their hand,,,,,,
+Dismantle,4,0,misc,"When this card is played, destroy a card from your hand",,,,,,
+Dismantle,4,0,misc,"When this card is played, destroy a card from your hand",,,,,,
+Dismantle,4,0,misc,"When this card is played, destroy a card from your hand",,,,,,
+Dismantle,4,0,misc,"When this card is played, destroy a card from your hand",,,,,,
+Temporary Wisdom,4,1,misc,"When played, draw two additional cards (even if this exceeds your maximum intelligence)",,,,,,
+Temporary Wisdom,4,1,misc,"When played, draw two additional cards (even if this exceeds your maximum intelligence)",,,,,,
+Temporary Wisdom,4,1,misc,"When played, draw two additional cards (even if this exceeds your maximum intelligence)",,,,,,
+Temporary Wisdom,4,1,misc,"When played, draw two additional cards (even if this exceeds your maximum intelligence)",,,,,,
+Temporary Might,4,1,misc,"On the turn this card is played, keep an additional card in your play area during your discard phase for 0 Strength cost",,,,,,
+Temporary Might,4,1,misc,"On the turn this card is played, keep an additional card in your play area during your discard phase for 0 Strength cost",,,,,,
+Temporary Might,4,1,misc,"On the turn this card is played, keep an additional card in your play area during your discard phase for 0 Strength cost",,,,,,
+Temporary Might,4,1,misc,"On the turn this card is played, keep an additional card in your play area during your discard phase for 0 Strength cost",,,,,,
+Temporary Cunning,4,1,misc,"On the turn this card is played, play an additional card for 0 Dexterity cost",,,,,,
+Temporary Cunning,4,1,misc,"On the turn this card is played, play an additional card for 0 Dexterity cost",,,,,,
+Temporary Cunning,4,1,misc,"On the turn this card is played, play an additional card for 0 Dexterity cost",,,,,,
+Temporary Cunning,4,1,misc,"On the turn this card is played, play an additional card for 0 Dexterity cost",,,,,,
+Tactician,3,1,attack,"+1 Attack Power
+OR
++1 Currency",attackpower,1,currency,1,,
+Tactician,3,1,attack,"+1 Attack Power
+OR
++1 Currency",attackpower,1,currency,1,,
+Tactician,3,1,attack,"+1 Attack Power
+OR
++1 Currency",attackpower,1,currency,1,,
+Tactician,3,1,attack,"+1 Attack Power
+OR
++1 Currency",attackpower,1,currency,1,,
+Dodge Roll,4,1,misc,"When this card is played, you attack first during combat. Immediately add this card to your hand on purchase.",,,,,,
+Dodge Roll,4,1,misc,"When this card is played, you attack first during combat. Immediately add this card to your hand on purchase.",,,,,,
+Dodge Roll,4,1,misc,"When this card is played, you attack first during combat. Immediately add this card to your hand on purchase.",,,,,,
+Dodge Roll,4,1,misc,"When this card is played, you attack first during combat. Immediately add this card to your hand on purchase.",,,,,,
+Parry,7,3,attack,"When played, subtract your current dexterity value from enemy monsters defenses. Immediately add this card to your hand on purchase.",armourpierce,,,,,
+Parry,7,3,attack,"When played, subtract your current dexterity value from enemy monsters defenses. Immediately add this card to your hand on purchase.",armourpierce,,,,,
+Parry,7,3,attack,"When played, subtract your current dexterity value from enemy monsters defenses. Immediately add this card to your hand on purchase.",armourpierce,,,,,
+Sprint,4,0,misc,"When played, you can move an additional grid space for free on this turn.",,,,,,
+Sprint,4,0,misc,"When played, you can move an additional grid space for free on this turn.",,,,,,
+Sprint,4,0,misc,"When played, you can move an additional grid space for free on this turn.",,,,,,
+Magic Missile,3,1,attack,+1 Attack Power. This attack card is augmented with Frost OR Fire.,attackpower,1,fireaugment,,frostaugment,
+Magic Missile,3,1,attack,+1 Attack Power. This attack card is augmented with Frost OR Fire.,attackpower,1,fireaugment,,frostaugment,
+Magic Missile,3,1,attack,+1 Attack Power. This attack card is augmented with Frost OR Fire.,attackpower,1,fireaugment,,frostaugment,
+Magic Missile,3,1,attack,+1 Attack Power. This attack card is augmented with Frost OR Fire.,attackpower,1,fireaugment,,frostaugment,
+Poison Dagger,3,1,attack,+1 Attack Power. This attack card is augmented with Poison.,attackpower,1,poisonaugment,,,
+Poison Dagger,3,1,attack,+1 Attack Power. This attack card is augmented with Poison.,attackpower,1,poisonaugment,,,
+Poison Dagger,3,1,attack,+1 Attack Power. This attack card is augmented with Poison.,attackpower,1,poisonaugment,,,
+Poison Dagger,3,1,attack,+1 Attack Power. This attack card is augmented with Poison.,attackpower,1,poisonaugment,,,
+Ice Spear,5,2,attack,+2 Attack Power. This attack card is augmented with Frost. While this card is in play enemies have -1 Attack Power.,attackpower,2,frostaugment,,,
+Ice Spear,5,2,attack,+2 Attack Power. This attack card is augmented with Frost. While this card is in play enemies have -1 Attack Power.,attackpower,2,frostaugment,,,
+Ice Spear,5,2,attack,+2 Attack Power. This attack card is augmented with Frost. While this card is in play enemies have -1 Attack Power.,attackpower,2,frostaugment,,,
+Ice Spear,5,2,attack,+2 Attack Power. This attack card is augmented with Frost. While this card is in play enemies have -1 Attack Power.,attackpower,2,frostaugment,,,
+Flame Blast,5,2,attack,+2 Attack Power. This attack card is augmented with Fire. While this card is in play enemies have -1 max health.,attackpower,2,fireaugment,,,
+Flame Blast,5,2,attack,+2 Attack Power. This attack card is augmented with Fire. While this card is in play enemies have -1 max health.,attackpower,2,fireaugment,,,
+Flame Blast,5,2,attack,+2 Attack Power. This attack card is augmented with Fire. While this card is in play enemies have -1 max health.,attackpower,2,fireaugment,,,
+Flame Blast,5,2,attack,+2 Attack Power. This attack card is augmented with Fire. While this card is in play enemies have -1 max health.,attackpower,2,fireaugment,,,
+Bull Rush,7,3,attack,"+1 Attack Power
+-1 Enemy Defenses
++1 Additional Attack Power for each grid space you moved this turn",attackpower,1,armourpierce,1,,
+Bull Rush,7,3,attack,"+1 Attack Power
+-1 Enemy Defenses
++1 Additional Attack Power for each grid space you moved this turn",attackpower,1,armourpierce,1,,
+Necromancy,7,3,attack,+1 Attack Power for each unspent monster reward card in your possession (to a maximum of 5),attackpower,1,,,,
+Necromancy,7,3,attack,+1 Attack Power for each unspent monster reward card in your possession (to a maximum of 5),attackpower,1,,,,
+Vortex,8,3,attack,+4 Attack Power. Discard the top card of your deck.,attackpower,4,,,,
+Vortex,8,3,attack,+4 Attack Power. Discard the top card of your deck.,attackpower,4,,,,
+Block,2,1,defense,+2 Defense,defense,1,,,,
+Block,2,1,defense,+2 Defense,defense,1,,,,
+Block,2,1,defense,+2 Defense,defense,1,,,,
+Block,2,1,defense,+2 Defense,defense,1,,,,
+Magic Shield,4,1,defense,+1 Defense. Restore 1 life value on playing this card.,defense,1,,,,
+Magic Shield,4,1,defense,+1 Defense. Restore 1 life value on playing this card.,defense,1,,,,
+Magic Shield,4,1,defense,+1 Defense. Restore 1 life value on playing this card.,defense,1,,,,
+Magic Shield,4,1,defense,+1 Defense. Restore 1 life value on playing this card.,defense,1,,,,
+Berserk Sweep,7,3,attack,+4 Attack Power. Lose 1 health on playing this card.,attackpower,4,,,,
+Berserk Sweep,7,3,attack,+4 Attack Power. Lose 1 health on playing this card.,attackpower,4,,,,
+Pickpocket,6,1,misc,"Destroy this card when played.
+Take one card at random from a players hand.",,,,,,
+Pickpocket,6,1,misc,"Destroy this card when played.
+Take one card at random from a players hand.",,,,,,
+Pickpocket,6,1,misc,"Destroy this card when played.
+Take one card at random from a players hand.",,,,,,
+Phalanx Tactics,5,1,defense,+3 Defense,defense,3,,,,
+Phalanx Tactics,5,1,defense,+3 Defense,defense,3,,,,
+Phalanx Tactics,5,1,defense,+3 Defense,defense,3,,,,
+Rapid Strike,3,2,attack,+2 Attack Power,attackpower,2,,,,
+Rapid Strike,3,2,attack,+2 Attack Power,attackpower,2,,,,
+Rapid Strike,3,2,attack,+2 Attack Power,attackpower,2,,,,
+Rapid Strike,3,2,attack,+2 Attack Power,attackpower,2,,,,
+Shield Charge,5,2,attack,"+2 Attack Power
++2 Defense",attackpower,2,defense,2,,
+Shield Charge,5,2,attack,"+2 Attack Power
++2 Defense",attackpower,2,defense,2,,
+Shield Charge,5,2,attack,"+2 Attack Power
++2 Defense",attackpower,2,defense,2,,
+Double Strike,4,1,attack,"+2 Attack Power
+If played on the same turn as another Double Strike, then +2 Attack Power",attackpower,2,attackpower,1,,
+Double Strike,4,1,attack,"+2 Attack Power
+If played on the same turn as another Double Strike, then +2 Attack Power",attackpower,2,attackpower,1,,
+Double Strike,4,1,attack,"+2 Attack Power
+If played on the same turn as another Double Strike, then +2 Attack Power",attackpower,2,attackpower,1,,
+Double Strike,4,1,attack,"+2 Attack Power
+If played on the same turn as another Double Strike, then +2 Attack Power",attackpower,2,attackpower,1,,
+Riposte,5,2,defense,"+2 Defense
+If you take damage from a monster while this is in play -2 Enemy Defenses",defense,2,armourpierce,2,,
+Riposte,5,2,defense,"+2 Defense
+If you take damage from a monster while this is in play -2 Enemy Defenses",defense,2,armourpierce,2,,
+Riposte,5,2,defense,"+2 Defense
+If you take damage from a monster while this is in play -2 Enemy Defenses",defense,2,armourpierce,2,,
+Bulwark,7,3,defense,"Can only be played if every combat card in your hand provides Defense
+Cannot be played if this is the only combat card in your hand
++3 Defense
+Gain attack power equal to your Defense",defense,3,,,,
+Bulwark,7,3,defense,"Can only be played if every combat card in your hand provides Defense
+Cannot be played if this is the only combat card in your hand
++3 Defense
+Gain attack power equal to your Defense",defense,3,,,,
+Bulwark,7,3,defense,"Can only be played if every combat card in your hand provides Defense
+Cannot be played if this is the only combat card in your hand
++3 Defense
+Gain attack power equal to your Defense",defense,3,,,,
+Resolute Technique,7,2,attack,"-2 Attack Power
+When played, Attack Power from other cards played this turn are worth double",,,,,,
+Resolute Technique,7,2,attack,"-2 Attack Power
+When played, Attack Power from other cards played this turn are worth double",,,,,,
+Resolute Technique,7,2,attack,"-2 Attack Power
+When played, Attack Power from other cards played this turn are worth double",,,,,,
+Shattering Steel,9,3,attack,"+7 Attack Power
+-7 Enemy Defenses
+Destroy this card when played",attackpower,7,armourpierce,7,,
+Shattering Steel,9,3,attack,"+7 Attack Power
+-7 Enemy Defenses
+Destroy this card when played",attackpower,7,armourpierce,7,,
+Wave of Destruction,9,3,attack,"Cannot be played if this is the only combat card in your hand
++5 Attack Power
+Destroy a random card from your hand",attackpower,5,,,,
+Wave of Destruction,9,3,attack,"Cannot be played if this is the only combat card in your hand
++5 Attack Power
+Destroy a random card from your hand",attackpower,5,,,,
+Last Resort,5,2,defense,"+2 Defense if you have 10 health or less
+Additional +2 Defense if you have 5 health or less",defense,2,defense,2,,
+Last Resort,5,2,defense,"+2 Defense if you have 10 health or less
+Additional +2 Defense if you have 5 health or less",defense,2,defense,2,,
+Last Resort,5,2,defense,"+2 Defense if you have 10 health or less
+Additional +2 Defense if you have 5 health or less",defense,2,defense,2,,
+Rage,6,2,attack,"+2 Attack Power if you have 10 health or less
+Additional +3 Attack Power if you have 5 health or less",attackpower,2,attackpower,3,,
+Rage,6,2,attack,"+2 Attack Power if you have 10 health or less
+Additional +3 Attack Power if you have 5 health or less",attackpower,2,attackpower,3,,
+Rage,6,2,attack,"+2 Attack Power if you have 10 health or less
+Additional +3 Attack Power if you have 5 health or less",attackpower,2,attackpower,3,,
+Sacrifice,5,1,misc,"Draw the top two cards of your personal deck, play one with 0 Dexterity cost, and destroy the other",,,,,,
+Sacrifice,5,1,misc,"Draw the top two cards of your personal deck, play one with 0 Dexterity cost, and destroy the other",,,,,,
+Sacrifice,5,1,misc,"Draw the top two cards of your personal deck, play one with 0 Dexterity cost, and destroy the other",,,,,,
+Drain,5,1,misc,Replenish health equal to the amount of Attack Power from cards played this turn,,,,,,
+Drain,5,1,misc,Replenish health equal to the amount of Attack Power from cards played this turn,,,,,,
+Drain,5,1,misc,Replenish health equal to the amount of Attack Power from cards played this turn,,,,,,
+Blood Magic,5,1,misc,"When played, gain a card costing 5 currency or less
+Lose 1 health on playing this card",,,,,,
+Blood Magic,5,1,misc,"When played, gain a card costing 5 currency or less
+Lose 1 health on playing this card",,,,,,
+Blood Magic,5,1,misc,"When played, gain a card costing 5 currency or less
+Lose 1 health on playing this card",,,,,,
+Elemental Inoculation,6,2,attack,"When played, discard up to 3 cards from your hand. +2 Attack power for each elemental card discarded",attackpower,,,,,
+Elemental Inoculation,6,2,attack,"When played, discard up to 3 cards from your hand. +2 Attack power for each elemental card discarded",attackpower,,,,,
+Elemental Inoculation,6,2,attack,"When played, discard up to 3 cards from your hand. +2 Attack power for each elemental card discarded",attackpower,,,,,
+Hardiness,5,1,misc,Draw and play an additional card for 0 Dexterity cost for every health you lose from cards played this turn,,,,,,
+Hardiness,5,1,misc,Draw and play an additional card for 0 Dexterity cost for every health you lose from cards played this turn,,,,,,
+Hardiness,5,1,misc,Draw and play an additional card for 0 Dexterity cost for every health you lose from cards played this turn,,,,,,
+Pestilent Strike,4,1,attack,"+1 Attack Power
+-1 Enemy Defenses
+This attack card is augmented with Poison",attackpower,1,armourpierce,1,poisonaugment,
+Pestilent Strike,4,1,attack,"+1 Attack Power
+-1 Enemy Defenses
+This attack card is augmented with Poison",attackpower,1,armourpierce,1,poisonaugment,
+Pestilent Strike,4,1,attack,"+1 Attack Power
+-1 Enemy Defenses
+This attack card is augmented with Poison",attackpower,1,armourpierce,1,poisonaugment,
+Pestilent Strike,4,1,attack,"+1 Attack Power
+-1 Enemy Defenses
+This attack card is augmented with Poison",attackpower,1,armourpierce,1,poisonaugment,
+Viper Bite,5,2,attack,"+1 Attack Power
++2 Additional attack power if you have another Poison card in play
+This attack card is augmented with Poison",attackpower,1,poisonaugment,,,
+Viper Bite,5,2,attack,"+1 Attack Power
++2 Additional attack power if you have another Poison card in play
+This attack card is augmented with Poison",attackpower,1,poisonaugment,,,
+Viper Bite,5,2,attack,"+1 Attack Power
++2 Additional attack power if you have another Poison card in play
+This attack card is augmented with Poison",attackpower,1,poisonaugment,,,
+Plague Bearer,6,2,attack,+2 Attack Power for each Poison card in play,attackpower,,,,,
+Plague Bearer,6,2,attack,+2 Attack Power for each Poison card in play,attackpower,,,,,
+Plague Bearer,6,2,attack,+2 Attack Power for each Poison card in play,attackpower,,,,,
+Clean Slate,4,1,misc,"Discard a card from your hand, draw one card (even if this exceeds your maximum intelligence)",,,,,,
+Clean Slate,4,1,misc,"Discard a card from your hand, draw one card (even if this exceeds your maximum intelligence)",,,,,,
+Clean Slate,4,1,misc,"Discard a card from your hand, draw one card (even if this exceeds your maximum intelligence)",,,,,,
+Unstable Explosion,5,0,attack,"This card cannot be played
++5 Attack Power when this card is discarded or destroyed",attackpower,5,,,,
+Unstable Explosion,5,0,attack,"This card cannot be played
++5 Attack Power when this card is discarded or destroyed",attackpower,5,,,,
+Unstable Explosion,5,0,attack,"This card cannot be played
++5 Attack Power when this card is discarded or destroyed",attackpower,5,,,,
+Freezing Pulse,5,3,attack,"+1 Attack Power
++1 Additional Attack Power for each card discarded or destroyed this turn
+This attack card is augmented with Frost",attackpower,1,frostaugment,,,
+Freezing Pulse,5,3,attack,"+1 Attack Power
++1 Additional Attack Power for each card discarded or destroyed this turn
+This attack card is augmented with Frost",attackpower,1,frostaugment,,,
+Freezing Pulse,5,3,attack,"+1 Attack Power
++1 Additional Attack Power for each card discarded or destroyed this turn
+This attack card is augmented with Frost",attackpower,1,frostaugment,,,
+Meteor,6,2,attack,"+2 Attack Power
+Discard a card from your hand
+This attack card is augmented with Fire",attackpower,2,fireaugment,,,
+Meteor,6,2,attack,"+2 Attack Power
+Discard a card from your hand
+This attack card is augmented with Fire",attackpower,2,fireaugment,,,
+Meteor,6,2,attack,"+2 Attack Power
+Discard a card from your hand
+This attack card is augmented with Fire",attackpower,2,fireaugment,,,
+Barrage,5,2,attack,"+2 Attack Power
+This attack is augmented with Fire
+When played, you may destroy any number of purchasable combat cards",attackpower,2,fireaugment,,,
+Barrage,5,2,attack,"+2 Attack Power
+This attack is augmented with Fire
+When played, you may destroy any number of purchasable combat cards",attackpower,2,fireaugment,,,
+Barrage,5,2,attack,"+2 Attack Power
+This attack is augmented with Fire
+When played, you may destroy any number of purchasable combat cards",attackpower,2,fireaugment,,,
+Greed,6,1,misc,"+2 Currency
+When played, you may destroy any number of purchasable combat cards",currency,2,,,,
+Greed,6,1,misc,"+2 Currency
+When played, you may destroy any number of purchasable combat cards",currency,2,,,,
+Greed,6,1,misc,"+2 Currency
+When played, you may destroy any number of purchasable combat cards",currency,2,,,,
+Toxic Projectile,4,1,attack,"+1 Attack Power
+When played, you may destroy a purchasable combat card
+This attack card is augmented with Poison",attackpower,1,poisonaugment,,,
+Toxic Projectile,4,1,attack,"+1 Attack Power
+When played, you may destroy a purchasable combat card
+This attack card is augmented with Poison",attackpower,1,poisonaugment,,,
+Toxic Projectile,4,1,attack,"+1 Attack Power
+When played, you may destroy a purchasable combat card
+This attack card is augmented with Poison",attackpower,1,poisonaugment,,,
+Toxic Projectile,4,1,attack,"+1 Attack Power
+You may destroy a purchasable combat card
+This attack card is augmented with Poison",attackpower,1,poisonaugment,,,
+Bloodletting,5,1,attack,"Lose 1 health on playing this card
++1 Attack Power for every health you lose from cards played this turn
+When played, you may destroy up to two purchasable combat cards",attackpower,,,,,
+Bloodletting,5,1,attack,"Lose 1 health on playing this card
++1 Attack Power for every health you lose from cards played this turn
+When played, you may destroy up to two purchasable combat cards",attackpower,,,,,
+Bloodletting,5,1,attack,"Lose 1 health on playing this card
++1 Attack Power for every health you lose from cards played this turn
+When played, you may destroy up to two purchasable combat cards",attackpower,,,,,
