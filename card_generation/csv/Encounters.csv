@@ -152,13 +152,13 @@ Eros' Palace,6,Location,Location,Location,Hellenic Plains,"A gift to Psyche to a
 Bath House,6,Location,Location,Location,Hellenic Plains,The communal hot steamy rooms of the bath houses provide respite for many travellers. If you end your movement here replenish 4 health.,,,,,,,
 Hippodrome,6,Location,Location,Location,Hellenic Plains,"Used for grand chariot races, the hippodrome can also be used as a training ground. If you end your movement here gain +2 attack power and +2 defense in your next encounter phase.",,,,,,,
 Divine Font of Strength,6,Location,Location,Location,Hellenic Plains,"A font containing water blessed by the gods, that when drank provides a sense of might. Place 3 tokens on this location, if a player lands here they may remove a token to gain 1 strength. A player may only claim one token, once all tokens are gone the font is empty and can be removed from the board.",,,,,,,
-Acropolis of Athens,6,Location,Location,Location,Hellenic Plains,"A great citadel and a place of worship. This impressive structure was said to be built for Cercrops, the serpent-man and supposed first king of Athens. Players landing here can pay 5 Drachmas to trash a Copper from their hand and gain a Silver, or trash a Silver and gain a Gold.",,,,,,,
+Acropolis of Athens,6,Location,Location,Location,Hellenic Plains,"A great citadel and a place of worship. This impressive structure was said to be built for Cercrops, the serpent-man and supposed first king of Athens. Players landing here can pay 5 Drachmas to trash a Copper from their hand or discard pile and gain a Silver, or trash a Silver and gain a Gold.",,,,,,,
 Stables,6,Location,Location,Location,Hellenic Plains,A stable has been set up here to offer travellers a ride across the land. If you end your movement here you can move 5 spaces for free in your next encounter phase.,,,,,,,
 Ampitheatre Performance,5,Event,Event,Event,Hellenic Plains,"A performance is being held at the ampitheatre tonight, the music and dancing bring in spectators from across the land. All players can choose to spend a Drachma to immediately travel to the City.",,,,,,,
 Athena's Protection,5,Event,Event,Event,Hellenic Plains,"Athena has blessed the land with her protection, keep this card in play until the next event is drawn. All players gain +2 defense.",,,,,,,
 Aeolus Tempest,5,Event,Event,Event,Hellenic Plains,"The god of wind, Aeolus, has bestowed a tempest across the land, all characters in this region must discard an item.",,,,,,,
 Market Day,5,Event,Event,Event,Hellenic Plains,A travelling market is crossing the land. All players can purchase a card from the Agora Marketplace deck.,,,,,,,
-Demeter's Folly,5,Event,Event,Event,Hellenic Plains,"Persephone has returned to Hades and has left Demeter in agonising sorrow, her grief has caused the recent harvests to be barren and stocks to deplete. Any faceup cards which sell items are discarded.",,,,,,,
+Demeter's Folly,5,Event,Event,Event,Hellenic Plains,"Persephone has returned to The Underworld and has left Demeter in agonising sorrow, her grief has caused the recent harvests to be barren and stocks to deplete. Any faceup cards which sell items are discarded.",,,,,,,
 Athena's Prophecy,5,Event,Event,Event,Hellenic Plains,"For two rounds, any players that land on spaces with instructions to draw 1 or more cards must draw an addition card. After two rounds discard this prophecy.",,,,,,,
 Kiss from Aphrodite,5,Event,Event,Event,Hellenic Plains,"You feel a sense of great warmth today, and feel as if you have been blessed by Aphrodite. Gain 4 health.",,,,,,,
 Aether's Light,6,Location,Location,Location,Hellenic Plains,"A single beam of light descends through the skies to this spot, upon visiting you may look at the top two cards of your personal deck, you can discard these cards or put them back in any order.",,,,,,,
@@ -171,18 +171,18 @@ Challenge from Ares,5,Event,Event,Event,Hellenic Plains,Ares is on the hunt for 
 Plutus' Tithe,5,Event,Event,Event,Hellenic Plains,"Plutus has sensed greed is corrupting the people. The player with the most Drachmas, must give 2 to the player with the least Drachmas.",,,,,,,
 Perses' Fury,5,Event,Event,Event,Hellenic Plains,"The Titan of destruction, Perses sweeps across the land and destroys everything in his path. Destory all face up cards in this region.",,,,,,,
 Crown of Immortality,3,Equipment,Equipment - Helmet,Helmet,Hellenic Plains,"Destroy this if you would die, replenish 10 health and immediately end your turn",,,,,,,
-Shield of Ajax,3,Equipment,Equipment - Shield,Shield,Hellenic Plains,"A huge shield made of seven cow hides and a layer of bronze.
+Shield of Ajax,3,Equipment,Equipment - Shield,Shield,Fields of Arcadia,"A huge shield made of seven cow hides and a layer of bronze.
 +3 Defense
 -2 Maximum Movement
-If you would lose life in battle, reveal the top card of your deck, if it is a combat card then gain +1 Defense",,defense,5,,,,
+If you would lose life in battle, reveal the top card of your deck, if it is a combat card then gain +1 Defense",,defense,3,,,,
 Tarnhelm,3,Equipment,Equipment - Helmet,Helmet,Hellenic Plains,A magic helmet giving the wearer the ability to change form or become invisible. While equipped you can evade enemies.,,,,,,,
 Hermes' Caduceus,3,Equipment,Equipment - Weapon,Weapon,Hellenic Plains,Said to control people's sleeping patterns by either waking them or causing them to fall into a deep sleep. Enemies have -4 Attack Power. Attack cards have +1 play cost.,,,,,,,
 Harpe,3,Equipment,Equipment - Weapon,Weapon,Hellenic Plains,"A deadly adamantine sword used by Perseus to decapitate the deadly Medusa.
 +2 Attack Power
-Enemies that resist Poison have 2 less health",,attackpower,3,,,,
+Enemies that resist Poison have 2 less health",,attackpower,2,,,,
 Sword of Peleus,3,Equipment,Equipment - Weapon,Weapon,Hellenic Plains,"A magic sword said to bring victory to wielders during the hunt
 +1 Attack Power
-+2 Additional Attack Power if used against an animal",,attackpower,2,attackpower,2,,
++2 Additional Attack Power if used against an animal",,attackpower,1,attackpower,2,,
 Apollo's Bow,3,Equipment,Equipment - Weapon,Weapon,Hellenic Plains,"The legendary bow of Apollo, each arrow can be used for inducing healing or death
 +2 Attack Power
 If you used attack power in combat against an enemy, but did not kill it, replenish 3 health",,attackpower,2,,,,
@@ -200,7 +200,7 @@ Hephaestus' Amulet,3,Equipment,Equipment - Amulet,Amulet,Hellenic Plains,"The go
 If you shuffle your discard pile into your deck during the buy phase, gain +6 Defense in the Encounter phase ",,defense,6,,,,
 Time Dial,3,Item,Item,Item,Hellenic Plains,"Inscribed by Kronus, this small time piece has a powerful aura. When you would otherwise destroy a combat card, you may destroy this instead.",,,,,,,
 Time Dial,3,Item,Item,Item,Hellenic Plains,"Inscribed by Kronus, this small time piece has a powerful aura. When you would otherwise destroy a combat card, you may destroy this instead.",,,,,,,
-Golden Fleece,3,Equipment,Equipment - Armour,Armour,Hellenic Plains,"Retrieved by Jason and the Argonauts, this fleece shines radiently.
+Golden Fleece,3,Equipment,Equipment - Armour,Armour,Hellenic Plains,"Retrieved by Jason and the Argonauts, this fleece is made from a golden ram.
 -1 Defense
 When you purchase a Stat card costing 6 or more currency, also gain a Gold card",,defense,-1,,,,
 Scroll of Destruction,3,Item,Item,Item,Hellenic Plains,"This scroll has been inscribed by a scholar with a plea to Perses, the Titan of destruction. When used, destroy all currently purchasable combat cards and replace them.",,,,,,,
@@ -223,487 +223,490 @@ Counterfeit Goods,5,Event,Event,Event,Hellenic Plains,A grifter offers you a sha
 Overbearing Curse,3,Item,Item,Item,Hellenic Plains,"This curse tablet has been inscribed with a curse asking the gods to bestow a great weight upon the character
 While you have this tablet you may only move 1 space a turn
 You may only discard this item at the City",,,,,,,
-Cerberus,1,Enemy,Enemy - Monster,Monster,Hades,"The legendary three headed dog, Cerberus, the guardian of Hades. When defeated, Cerberus is mearly knocked unconscious and will remain in this space.",,attackpower,10,defense,5,life,9
-Shady Alchemist,5,Event,Event,Event,Fields of Elysium,A disreputable alchemist offers you a shady deal. You may pay 4 Drachmas to gain a Gold card.,,,,,,,
-Bandit Raid,5,Event,Event,Event,Fields of Elysium,"Bandits have been raiding the area and have hidden their stash of stolen goods. Discard all face up location cards in this region. Place 3 Drachmas on the Caves tile in Fields of Elysium, which can be claimed by a player by landing on the tile.",,,,,,,
-Peddlers Offer,5,Event,Event,Event,Fields of Elysium,The peddler is travelling the land offering a special price. All players may purchase a card from the Peddler deck for 1 Drachma less.,,,,,,,
-Eisphorá Tax,5,Event,Event,Event,Fields of Elysium,"In times of war the rich are heavily taxed to fund the war effort. All players must reveal the top 3 cards of their deck. The player who revealed the most currency may choose to either destroy all their revealed currency, or destroy a piece of equipment. Players place all other cards back on top of their deck.",,,,,,,
-Ixion's Folly,5,Event,Event,Event,Fields of Elysium,"Ixion, the scoundrel and murderer, was pardoned by Zeus only to betray him by trying to seduce his wife, Hera. After his death, Ixion found punishment in Tartarus, bound to an ever-spinning fiery wheel. Place this card in Tartarus. Players who land here may reveal a fire card in play or in their hand to punish Ixion, earning the favour of the gods, gaining a card from the Oracle deck. Players with Orpheus' Lyre or Pan's Flute may show mercy by playing music to stop the wheel spinning and gain a stat card.",,,,,,,
-Panathenaea,5,Event,Event,Event,Fields of Elysium,"The largest festival in Greece has begun. For two rounds, all players have a maximum movement of 1, and currency cards are worth double their value, but also have double purchase cost.",,,,,,,
-Hephaestus' Forge,6,Location,Location,Location,Fields of Elysium,"Hephaestus, god of metalworking, has set up his eternal forge in this location. Players visting can destroy a silver or gold from their hand to take an item from the item discard pile. This location can't be discarded, destroyed or moved.",,,,,,,
-Artemis' Vengeance,5,Event,Event,Event,Fields of Elysium,"Artemis often acts out in anger whenever anyone transgresses against her animals without her permission. She has sent a beast after you in retaliation of your hunting. Draw from the encounter deck until you draw an Animal or Monster. You must fight this enemy, the enemy gets +2 to every stat. If you lose then reverse the enemy reward (gain becomes lose) and resolve it against yourself. Shuffle all revealed cards back into the deck.",,,,,,,
-Call of The Hunt,5,Event,Event,Event,Fields of Elysium,"Artemis has sent out a call for you track down dangerous beasts. If you are within 4 spaces of the Shrine to Artemis, you may immediately move to any space in Fields of Elysium or Hellenic Plains, if you move to a enemy and beat it, you may claim it's reward twice. Otherwise you may immediately move to the Shrine to Artemis.",,,,,,,
-Plutus' Gamble,5,Event,Event,Event,Fields of Elysium,"Plutus is know to occasionally overwhealm his followers with greed and desire. You may pay 1 Drachma to reveal the top card of your deck, if you reveal currency, then gain Drachmas equal to twice the value of currency revealed.",,,,,,,
-Olympian Generosity,5,Event,Event,Event,Fields of Elysium,The gods have blessed you today. Gain a random card from the Oracle deck.,,,,,,,
-Flash Flood,5,Event,Event,Event,Fields of Elysium,"Poseidon can tap the ground with his trident to summon an earthquake or flood, and he has offered you this power to aid in your quest. You may destroy one face up location or event card.",,,,,,,
-Tunnel,6,Location,Location,Location,Fields of Elysium,"An undergound network formed by Gaia, these tunnels lead to the City. If you end your movement on your next turn you may start your movement from the City.",,,,,,,
-Black Market,6,Location,Location,Location,Fields of Elysium,"A network of backstreet dealers have been set up here. Players landing on this location may take an item from the Peddler deck for free, if they do they must reveal the top card of their deck, if a currency is revealed you and the black market are safe. If you reveal anything else you are caught and are punished by Zeus for your ignorance and are struck by lightning, lose 1 health, 3 if you are wearing armour. The black market must then pack up and you are sent away with them, immediately travel to the city and discard this location.",,,,,,,
-Divine Font of Dexterity,6,Location,Location,Location,Fields of Elysium,"A font containing water blessed by the gods, that when drank provides a sense of ingenuity and finesse. Place 3 tokens on this location, if a player lands here they may remove a token to gain 1 dexterity. A player may only claim one token, once all tokens are gone the font is empty and can be removed from the board.",,,,,,,
-Pantheon,6,Location,Location,Location,Fields of Elysium,"A temple to worship all the gods in one location, blessings given here are very generous. Players landing in this space may exchange a stat card for another alternative stat.",,,,,,,
-Winged Helmet of hermes,3,Equipment,Equipment - Helmet,Helmet,Fields of Elysium,"The mercury helmet of the god Hermes, a messenger to the gods, this helmet provides great speed.
+Cerberus,1,Enemy,Enemy - Monster,Monster,The Underworld,"The legendary three headed dog, Cerberus, the guardian of The Underworld. When defeated, Cerberus is mearly knocked unconscious and will remain in this space.",,attackpower,10,defense,5,life,9
+Shady Alchemist,5,Event,Event,Event,Fields of Arcadia,A disreputable alchemist offers you a shady deal. You may pay 4 Drachmas to gain a Gold card.,,,,,,,
+Bandit Raid,5,Event,Event,Event,Fields of Arcadia,"Bandits have been raiding the area and have hidden their stash of stolen goods. Discard all face up location cards in this region. Place 3 Drachmas on the Caves tile in Fields of Arcadia, which can be claimed by a player by landing on the tile.",,,,,,,
+Peddlers Offer,5,Event,Event,Event,Fields of Arcadia,The peddler is travelling the land offering a special price. All players may purchase a card from the Peddler deck for 1 Drachma less.,,,,,,,
+Eisphorá Tax,5,Event,Event,Event,Fields of Arcadia,"In times of war the rich are heavily taxed to fund the war effort. All players must reveal the top 3 cards of their deck. The player who revealed the most currency may choose to either destroy all their revealed currency, or destroy a piece of equipment. Players place all other cards back on top of their deck.",,,,,,,
+Ixion's Folly,5,Event,Event,Event,Fields of Arcadia,"Ixion, the scoundrel and murderer, was pardoned by Zeus only to betray him by trying to seduce his wife, Hera. After his death, Ixion found punishment in Tartarus, bound to an ever-spinning fiery wheel. Place this card in Tartarus. Players who land here may reveal a fire card in play or in their hand to punish Ixion, earning the favour of the gods, gaining a card from the Oracle deck. Players with Orpheus' Lyre or Pan's Flute may show mercy by playing music to stop the wheel spinning and gain a stat card.",,,,,,,
+Panathenaea,5,Event,Event,Event,Fields of Arcadia,"The largest festival in Greece has begun. For two rounds, all players have a maximum movement of 1, and currency cards are worth double their value, but also have double purchase cost.",,,,,,,
+Hephaestus' Forge,6,Location,Location,Location,Fields of Arcadia,"Hephaestus, god of metalworking, has set up his eternal forge in this location. Players visting can destroy a silver or gold from their hand or discard pile to take an item from the item discard pile. This location can't be discarded, destroyed or moved.",,,,,,,
+Artemis' Vengeance,5,Event,Event,Event,Fields of Arcadia,"Artemis often acts out in anger whenever anyone transgresses against her animals without her permission. She has sent a beast after you in retaliation of your hunting. Draw from the encounter deck until you draw an Animal or Monster. You must fight this enemy, the enemy gets +2 to every stat. If you lose then reverse the enemy reward (gain becomes lose) and resolve it against yourself. Shuffle all revealed cards back into the deck.",,,,,,,
+Call of The Hunt,5,Event,Event,Event,Fields of Arcadia,"Artemis has sent out a call for you track down dangerous beasts. If you are within 4 spaces of the Shrine to Artemis, you may immediately move to any space in Fields of Arcadia or Hellenic Plains, if you move to a enemy and beat it, you may claim it's reward twice. Otherwise you may immediately move to the Shrine to Artemis.",,,,,,,
+Plutus' Gamble,5,Event,Event,Event,Fields of Arcadia,"Plutus is know to occasionally overwhealm his followers with greed and desire. You may pay 1 Drachma to reveal the top card of your deck, if you reveal currency, then gain Drachmas equal to twice the value of currency revealed.",,,,,,,
+Olympian Generosity,5,Event,Event,Event,Fields of Arcadia,The gods have blessed you today. Gain a random card from the Oracle deck.,,,,,,,
+Flash Flood,5,Event,Event,Event,Fields of Arcadia,"Poseidon can tap the ground with his trident to summon an earthquake or flood, and he has offered you this power to aid in your quest. You may destroy one face up location or event card.",,,,,,,
+Tunnel,6,Location,Location,Location,Fields of Arcadia,"An undergound network formed by Gaia, these tunnels lead to the City. If you end your movement on your next turn you may start your movement from the City.",,,,,,,
+Black Market,6,Location,Location,Location,Fields of Arcadia,"A network of backstreet dealers have been set up here. Players landing on this location may take an item from the Peddler deck for free, if they do they must reveal the top card of their deck, if a currency is revealed you and the black market are safe. If you reveal anything else you are caught and are punished by Zeus for your ignorance and are struck by lightning, lose 1 health, 3 if you are wearing armour. The black market must then pack up and you are sent away with them, immediately travel to the city and discard this location.",,,,,,,
+Divine Font of Dexterity,6,Location,Location,Location,Fields of Arcadia,"A font containing water blessed by the gods, that when drank provides a sense of ingenuity and finesse. Place 3 tokens on this location, if a player lands here they may remove a token to gain 1 dexterity. A player may only claim one token, once all tokens are gone the font is empty and can be removed from the board.",,,,,,,
+Pantheon,6,Location,Location,Location,Fields of Arcadia,"A temple to worship all the gods in one location, blessings given here are very generous. Players landing in this space may exchange a stat card for another alternative stat.",,,,,,,
+Winged Helmet of hermes,3,Equipment,Equipment - Helmet,Helmet,Fields of Arcadia,"The mercury helmet of the god Hermes, a messenger to the gods, this helmet provides great speed.
 +1 Maximum Movement
 You may move 3 tiles for free.",,,,,,,
-Old Dryad,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"The dryads, wooden humanoid like creatures, know dark magic, unknown to the gods.
+Old Dryad,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"The dryads, wooden humanoid like creatures, know dark magic, unknown to the gods.
 Resists: Poison
 Weakness: Fire","Reward:
 Reveal the top card of the Combat Deck, you may place it back on top, put it on the bottom, or use it to replace a purchasable card.",attackpower,6,defense,4,life,7
-Old Dryad,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"The dryads, wooden humanoid like creatures, know dark magic, unknown to the gods.
+Old Dryad,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"The dryads, wooden humanoid like creatures, know dark magic, unknown to the gods.
 Resists: Poison
 Weakness: Fire","Reward:
 Reveal the top card of the Combat Deck, you may place it back on top, put it on the bottom, or use it to replace a purchasable card.",attackpower,6,defense,4,life,7
-Nymph,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"Nymphs can use their abilties to command nature for good and evil.
+Nymph,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"Nymphs can use their abilties to command nature for good and evil.
 Resists: Poison
 Weakness: Fire","Reward:
 You may teleport to another players Portal Stone",attackpower,5,defense,3,life,7
-Centaur,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"A fierce and easily offended beast, the Centaur are a race of highly intelligent hybrids of horse and man","Reward:
-You may destroy an Attack card from your hand",attackpower,7,defense,3,life,8
-Centaur,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"A fierce and easily offended beast, the Centaur are a race of highly intelligent hybrids of horse and man","Reward:
-You may destroy an Attack card from your hand",attackpower,7,defense,3,life,8
-Minotaur of Minos,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"The ledgendary Minotaur, slaughted by Theseus, now roams Elysium seeking his killer.
+Centaur,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"A fierce and easily offended beast, the Centaur are a race of highly intelligent hybrids of horse and man","Reward:
+You may destroy an Attack card from your discard pile",attackpower,7,defense,3,life,8
+Centaur,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"A fierce and easily offended beast, the Centaur are a race of highly intelligent hybrids of horse and man","Reward:
+You may destroy an Attack card from your discard pile",attackpower,7,defense,3,life,8
+Minotaur of Minos,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"The ledgendary Minotaur, slaughted by Theseus, now roams Elysium seeking his killer.
 Resists: Physical","Reward:
 Gain any combat card that is currently purchasable that provides non-elemental Attack Power",attackpower,9,defense,4,life,8
-Evil Eye Amulet,3,Equipment,Equipment - Amulet,Amulet,Fields of Elysium,"This amulet resembles an eye, which reflects a malevolent gaze back upon those who wish to inflict harm upon you.
+Evil Eye Amulet,3,Equipment,Equipment - Amulet,Amulet,Fields of Arcadia,"This amulet resembles an eye, which reflects a malevolent gaze back upon those who wish to inflict harm upon you.
 While equipped you can only recieve a maximum of 5 damage in a single instance.
 If an enemy would deal more than 5 damage to you gain +2 Attack Power.",,,,,,,
-Briareus,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"One of the Hecatoncheires, giant monsters with 50 heads and one hundred hands.","Reward:
+Briareus,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"One of the Hecatoncheires, giant monsters with 50 heads and one hundred hands.","Reward:
 When claimed, all cards have 0 Dexterity play cost this turn.",attackpower,7,defense,0,life,9
-Argus,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"The watcher for Hera, this one hundred eyed giant never sleeps.
+Argus,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"The watcher for Hera, this one hundred eyed giant never sleeps.
 Weakness: Frost","Reward:
 When claimed, look at the top 5 cards of your deck, you may discard two and put the rest back in any order",attackpower,6,defense,2,life,7
-Amulet of Minos,3,Equipment,Equipment - Amulet,Amulet,Fields of Elysium,"An amulet found in the labyrinth on Minos, the wearer is said to never get lost. You may move in both directions in Hades. Any items that provide movement also provide +1 Attack Power and +1 Defense.",,,,,,,
-Shield of Achilles,3,Equipment,Equipment - Shield,Shield,Fields of Elysium,"A beautiful shield depicting the Earth, Sky, Sea and Moon.
+Amulet of Minos,3,Equipment,Equipment - Amulet,Amulet,Fields of Arcadia,"An amulet found in the labyrinth on Minos, the wearer is said to never get lost. You may move in both directions in The Underworld. Any items that provide movement also provide +1 Attack Power and +1 Defense.",,,,,,,
+Shield of Achilles,3,Equipment,Equipment - Shield,Shield,Fields of Arcadia,"A beautiful shield depicting the Earth, Sky, Sea and Moon.
 +1 Defense
 Once per turn, for 1 play cost, you may reveal the top card of your deck, if it is a combat card you may immediately play it, otherwise discard the card.",,,,,,,
-Glimmering Shield,3,Equipment,Equipment - Shield,Shield,Fields of Elysium,"This shield has a radiant gleam, which makes it look like glitter in the sunlight
+Glimmering Shield,3,Equipment,Equipment - Shield,Shield,Fields of Arcadia,"This shield has a radiant gleam, which makes it look like glitter in the sunlight
 +1 Defense
 If you would lose life in battle, reveal the top card of your deck, if it is a currency card gain +2 defense",,defense,1,,,,
-Sword of Damocles,3,Equipment,Equipment - Weapon,Weapon,Fields of Elysium,"This massive sword hung above the throne of Damocles, always in threat of taking his life.
+Sword of Damocles,3,Equipment,Equipment - Weapon,Weapon,Fields of Arcadia,"This massive sword hung above the throne of Damocles, always in threat of taking his life.
 +4 Attack Power
 If you lose a battle, then lose 4 health.",,,,,,,
-Spiked Shield,3,Equipment,Equipment - Shield,Shield,Fields of Elysium,"A spiked shield which can be used for both attack and defense in a pinch.
+Spiked Shield,3,Equipment,Equipment - Shield,Shield,Fields of Arcadia,"A spiked shield which can be used for both attack and defense in a pinch.
 +1 Attack Power
 +1 Defense
 If you would lose life in battle, reveal the top card of your deck, if it is a card which provides Attack Power then gain +1 Defense
 ",,,,,,,
-Orpheus' Lyre,3,Equipment,Equipment - Weapon,Weapon,Fields of Elysium,"Orpheus' Lyre was said to be able to charm animals, just by playing the instrument.
+Orpheus' Lyre,3,Equipment,Equipment - Weapon,Weapon,Fields of Arcadia,"Orpheus' Lyre was said to be able to charm animals, just by playing the instrument.
 -2 Attack Power
 Place a Animal reward card on this weapon, gain Attack Power equal to the Attack Power of the Animal.
 ",,,,,,,
-Pan's Flute,3,Equipment,Equipment - Weapon,Weapon,Fields of Elysium,"Created from reeds, which were the flesh of a wood-nymph, this instrument is described as piercingly sweet and is used as a tool of distraction.
+Pan's Flute,3,Equipment,Equipment - Weapon,Weapon,Fields of Arcadia,"Created from reeds, which were the flesh of a wood-nymph, this instrument is described as piercingly sweet and is used as a tool of distraction.
 Enemies have -2 Attack Power
 +2 Attack Power for every Monster or Animal within 4 spaces",,,,,,,
-Rainfall Amulet,3,Equipment,Equipment - Amulet,Amulet,Fields of Elysium,"Worn around the necks by farmers, it is hoped that this amulet will bring sufficient rainfall.
+Rainfall Amulet,3,Equipment,Equipment - Amulet,Amulet,Fields of Arcadia,"Worn around the necks by farmers, it is hoped that this amulet will bring sufficient rainfall.
 You can evade monsters that resist Frost.
 If an Attack card is kept in play using Strength it is augmented with Frost.",,,,,,,
-Ares Crested Ring,3,Equipment,Equipment - Ring,Ring,Fields of Elysium,"A steel ring imprinted with the crest of Ares.
+Ares Crested Ring,3,Equipment,Equipment - Ring,Ring,Fields of Arcadia,"A steel ring imprinted with the crest of Ares.
 +1 Strength
 While you have at least 5 cards retained with Strength you may gain +4 Attack Power.
 You may not retain any cards with Strength on any turn when you claim this additional Attack Power.",,,,,,,
-Hecate Crested Ring,3,Equipment,Equipment - Ring,Ring,Fields of Elysium,"A bismuth ring imprinted with the crest of Hecate.
+Hecate Crested Ring,3,Equipment,Equipment - Ring,Ring,Fields of Arcadia,"A bismuth ring imprinted with the crest of Hecate.
 You may equip an Amulet in your other ring slot.",,,,,,,
-Ferocious Wolf,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,This fearsom wolf is looking for his next victim.,"Reward:
+Ferocious Wolf,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,This fearsom wolf is looking for his next victim.,"Reward:
 +3 Drachma",attackpower,4,defense,2,life,5
-Locust Swarm,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"More of an annoyance than a threat, these locusts are enough of a pest to strike back.","Reward:
+Locust Swarm,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"More of an annoyance than a threat, these locusts are enough of a pest to strike back.","Reward:
 +3 Drachma",attackpower,6,defense,2,life,5
-Gluttonous Bear,1,Enemy ,Enemy - Animal,Animal,Fields of Elysium,A bear who has recently left hibernation has become protective of his hovel.,"Reward:
+Gluttonous Bear,1,Enemy ,Enemy - Animal,Animal,Fields of Arcadia,A bear who has recently left hibernation has become protective of his hovel.,"Reward:
 When claimed, immediately shuffle your discard pile into your personal deck",attackpower,5,defense,1,life,7
-Charging Bull,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"The bull storms towards you destroying everything in its path.
+Charging Bull,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"The bull storms towards you destroying everything in its path.
 Weakness: Fire","Reward:
 Shuffle all purchasable combat cards back into the deck when claimed",attackpower,5,defense,0,life,5
-Illusionist,1,Enemy,Enemy - Human,Human,Fields of Elysium,"A deceptive trap tricks into a fight with this magi
+Illusionist,1,Enemy,Enemy - Human,Human,Fields of Arcadia,"A deceptive trap tricks you into a fight with this magi
 Resists: Fire and Frost","Reward:
 When claimed, choose a combat card you have played this turn, this now counts as if you played it twice",attackpower,5,defense,4,life,4
-Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
+Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
 +3 Drachma",attackpower,4,defense,0,life,6
-Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
+Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
 +3 Drachma",attackpower,4,defense,0,life,6
-Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
+Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
 +3 Drachma",attackpower,4,defense,0,life,6
-Hippogriff,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"The symbol of Apollo, this creature has an eagles head on a horses body.","Reward:
+Hippogriff,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"The symbol of Apollo, this creature has an eagles head on a horses body.","Reward:
 Move two additional grid spaces for free",attackpower,6,defense,1,life,6
-Persian Immortal,1,Enemy,Enemy - Human,Human,Fields of Elysium,"The immortals attack from the shadows, using scare tactics to intimidate their foes.
+Persian Immortal,1,Enemy,Enemy - Human,Human,Fields of Arcadia,"The immortals attack from the shadows, using scare tactics to intimidate their foes.
 Resists: Physical","Reward:
 +3 Drachma",attackpower,5,defense,4,life,5
-Vengeful Satyr,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"A companion of Pan, this Satyr is particularly aggressive.
+Vengeful Satyr,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"A companion of Pan, this Satyr is particularly aggressive.
 Resists: Fire
 Weakness: Frost","Reward:
 Steal a card from a players hand at random",attackpower,5,defense,3,life,7
-Hippocampus,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"Found in rivers and lakes, this creature is half horse, half fish
+Hippocampus,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"Found in rivers and lakes, this creature is half horse, half fish
 Weakness: Lightning","Reward:
-Immediately travel to the Ruins in Fields of Elysium when claimed",attackpower,4,defense,3,life,6
-Corinthian Warrior,1,Enemy,Enemy - Human,Human,Fields of Elysium,"Dressed in heavy armour this warrior makes for a tough opponent
+Immediately travel to the Ruins in Fields of Arcadia when claimed",attackpower,4,defense,3,life,6
+Corinthian Warrior,1,Enemy,Enemy - Human,Human,Fields of Arcadia,"Dressed in heavy armour this warrior makes for a tough opponent
 Resists: Physical
 Weakness: Poison","Reward:
 When claimed, gain +5 defense this turn",attackpower,4,defense,7,life,3
-Viper,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"Sneaking through the grass the viper has a deadly bite
+Viper,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"Sneaking through the grass the viper has a deadly bite
 Resists: Poison","Reward:
 +3 Drachma",attackpower,5,defense,0,life,2
-Jackal,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"Usually hunting in packs, this jackle doesn't seem too concerned that hes been left behind
+Jackal,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"Usually hunting in packs, this jackle doesn't seem too concerned that hes been left behind
 Weakness: Fire","Reward:
 +3 Drachma",attackpower,5,defense,0,life,6
-Jackal,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"Usually hunting in packs, this jackle doesn't seem too concerned that hes been left behind
+Jackal,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"Usually hunting in packs, this jackle doesn't seem too concerned that hes been left behind
 Weakness: Fire","Reward:
 +3 Drachma",attackpower,5,defense,0,life,6
-Weasel,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,A weasel catches you off guard and tries to steal your food,"Reward:
+Weasel,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,A weasel catches you off guard and tries to steal your food,"Reward:
 +3 Drachma",attackpower,3,defense,0,life,3
-Blessed Fox,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"This fox appears to have been blessed by the gods themselves
+Blessed Fox,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"This fox appears to have been blessed by the gods themselves
 Resists: Lightning, Fire and Frost
 Weakness: Poison","Reward:
 +3 Drachma",attackpower,5,defense,0,life,4
-Great Bat,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"Searching for blood, this bat attacks at night","Reward:
+Great Bat,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"Searching for blood, this bat attacks at night","Reward:
 +3 Drachma",attackpower,5,defense,0,life,4
-Catoblepas,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"This buffalo-like creature has shaggy fur, large horns and toxic breath
+Catoblepas,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"This buffalo-like creature has shaggy fur, large horns and toxic breath
 Resists: Poison
 Weakness: Fire","Reward:
 When claimed all attack cards this turn are augmented with poison",attackpower,6,defense,0,life,3
-Disciple of Hecate,1,Enemy,Enemy - Human,Human,Fields of Elysium,A follower of the goddess of the moon and witchcraft,"Reward:
+Disciple of Hecate,1,Enemy,Enemy - Human,Human,Fields of Arcadia,A follower of the goddess of the moon and witchcraft,"Reward:
 When claimed, draw two additional cards in your draw phase",attackpower,5,defense,2,life,6
-Giant Centipede,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,The creature has a thick carapace on its back,"Reward:
+Giant Centipede,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,The creature has a thick carapace on its back,"Reward:
 +3 Drachma",attackpower,4,defense,5,life,3
-Sacred Owl,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"The owl is a symbol of Athena, and are considered sacred
+Sacred Owl,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"The owl is a symbol of Athena, and are considered sacred
 Resists: Frost
 Weakness: Fire","Reward:
 +3 Drachma",attackpower,4,defense,0,life,4
-Sacred Owl,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,"The owl is a symbol of Athena, and are considered sacred
+Sacred Owl,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,"The owl is a symbol of Athena, and are considered sacred
 Resists: Frost
 Weakness: Fire","Reward:
 +3 Drachma",attackpower,4,defense,0,life,4
-Agrianian Peltast,1,Enemy,Enemy - Human,Human,Fields of Elysium,"Hiding behind a shield this peltast hurls javelins at his opponents
+Agrianian Peltast,1,Enemy,Enemy - Human,Human,Fields of Arcadia,"Hiding behind a shield this peltast hurls javelins at his opponents
 Resists: Physical","Reward:
 When claimed, gain +4 defense on this turn",attackpower,5,defense,5,life,4
-Macedonian Soldier,1,Enemy,Enemy - Human,Human,Fields of Elysium,"A soldier hailing from the Macedonian kingdom, equipped with a large spear
+Macedonian Soldier,1,Enemy,Enemy - Human,Human,Fields of Arcadia,"A soldier hailing from the Macedonian kingdom, equipped with a large spear
 Resists: Physical","Reward:
 +3 Drachma",attackpower,6,defense,6,life,4
-Macedonian Soldier,1,Enemy,Enemy - Human,Human,Fields of Elysium,"A soldier hailing from the Macedonian kingdom, equipped with a large spear
+Macedonian Soldier,1,Enemy,Enemy - Human,Human,Fields of Arcadia,"A soldier hailing from the Macedonian kingdom, equipped with a large spear
 Resists: Physical","Reward:
 +3 Drachma",attackpower,6,defense,6,life,4
-Thessalian Cavalry,1,Enemy,Enemy - Human,Human,Fields of Elysium,"Attacking from horseback, this cavalry infantry dominates in speed and power
+Thessalian Cavalry,1,Enemy,Enemy - Human,Human,Fields of Arcadia,"Attacking from horseback, this cavalry infantry dominates in speed and power
 Resists: Physical","Reward:
 When claimed, gain 2 additional maximum movement this turn",attackpower,6,defense,4,life,5
-Thessalian Cavalry,1,Enemy,Enemy - Human,Human,Fields of Elysium,"Attacking from horseback, this cavalry infantry dominates in speed and power
+Thessalian Cavalry,1,Enemy,Enemy - Human,Human,Fields of Arcadia,"Attacking from horseback, this cavalry infantry dominates in speed and power
 Resists: Physical","Reward:
 When claimed, gain 2 additional maximum movement this turn",attackpower,6,defense,4,life,5
-Thracian Infantry,1,Enemy,Enemy - Human,Human,Fields of Elysium,The thracians used cresent shaped shields to catch their enemies weapons,"Reward:
+Thracian Infantry,1,Enemy,Enemy - Human,Human,Fields of Arcadia,The thracians used cresent shaped shields to catch their enemies weapons,"Reward:
 +3 Drachma",attackpower,6,defense,4,life,5
-Thracian Infantry,1,Enemy,Enemy - Human,Human,Fields of Elysium,The thracians used cresent shaped shields to catch their enemies weapons,"Reward:
+Thracian Infantry,1,Enemy,Enemy - Human,Human,Fields of Arcadia,The thracians used cresent shaped shields to catch their enemies weapons,"Reward:
 +3 Drachma",attackpower,6,defense,4,life,5
-Mountain Lion,1,Enemy,Enemy - Animal,Animal,Fields of Elysium,A mountain lion stalks this area searching for food,"Reward:
+Mountain Lion,1,Enemy,Enemy - Animal,Animal,Fields of Arcadia,A mountain lion stalks this area searching for food,"Reward:
 +3 Drachma",attackpower,5,defense,0,life,5
-Damysus,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,"The fastest of the Giants, whose ankle was removed and incorportated into Achilles burnt foot","Reward:
+Damysus,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,"The fastest of the Giants, whose ankle was removed and incorportated into Achilles burnt foot","Reward:
 You can move 5 spaces for free this turn",attackpower,6,defense,4,life,7
-Crocotta,1,Enemy,Enemy - Monster,Monster,Fields of Elysium,The Crocotta is a dog-like creature that can mimick the human voice and uses this to lure people into its den.,"Reward:
+Crocotta,1,Enemy,Enemy - Monster,Monster,Fields of Arcadia,The Crocotta is a dog-like creature that can mimick the human voice and uses this to lure people into its den.,"Reward:
 When claimed, choose a card that another player has in play, this counts as if you have played the chosen card this turn.",attackpower,4,defense,3,life,7
-Scroll of Summoning,3,Item,Item,Item,Fields of Elysium,"If you land on a space that allows you to draw cards, you may discard this item to move any face up Enemy in this region to your space.",,,,,,,
-Scroll of Summoning,3,Item,Item,Item,Fields of Elysium,"If you land on a space that allows you to draw cards, you may discard this item to move any face up Enemy in this region to your space.",,,,,,,
-Relocation Scroll,3,Item,Item,Item,Fields of Elysium,"If you land on a space that allows you to draw cards, you may discard this item to move any face up Location in any region which you are not currently in, to this location.",,,,,,,
-Assyrtiko Wine,3,Item,Item,Item,Fields of Elysium,"Grown from the grapes of Santorini this wine is imbuded with a volcanic essence
+Scroll of Summoning,3,Item,Item,Item,Fields of Arcadia,"If you land on a space that allows you to draw cards, you may discard this item to move any face up Enemy in this region to your space.",,,,,,,
+Scroll of Summoning,3,Item,Item,Item,Fields of Arcadia,"If you land on a space that allows you to draw cards, you may discard this item to move any face up Enemy in this region to your space.",,,,,,,
+Relocation Scroll,3,Item,Item,Item,Fields of Arcadia,"If you land on a space that allows you to draw cards, you may discard this item to move any face up Location in any region which you are not currently in, to this location.",,,,,,,
+Assyrtiko Wine,3,Item,Item,Item,Fields of Arcadia,"Grown from the grapes of Santorini this wine is imbuded with a volcanic essence
 Reveal the top card of your deck, if it is Gold gain a stat, if it is Silver gain a Combat Card, otherwise lose 3 health",,,,,,,
-Retsina Wine,3,Item,Item,Item,Fields of Elysium,"Said to be Apollo's favourite wine, the taste is extremely rich
+Retsina Wine,3,Item,Item,Item,Fields of Arcadia,"Said to be Apollo's favourite wine, the taste is extremely rich
 Reveal the top card of your deck, if it provides Attack Power gain a stat, if it provides Defense gain a Combat Card, if it is Currency gain a Drachma, otherwise lose 3 health",,,,,,,
-Ismaros Wine,3,Item,Item,Item,Fields of Elysium,"The recipie of this wine is thought to be forgotten, as supplies were destroyed in battle at Ismaros, so supplies are greatly limited
+Ismaros Wine,3,Item,Item,Item,Fields of Arcadia,"The recipie of this wine is thought to be forgotten, as supplies were destroyed in battle at Ismaros, so supplies are greatly limited
 Reveal the top card of your deck, if it is a Combat Card then gain a Gold, otherwise lose 3 health",,,,,,,
-Kos Wine,3,Item,Item,Item,Fields of Elysium,"This wine is extremely sweet and will replenish those who are low in vigor
+Kos Wine,3,Item,Item,Item,Fields of Arcadia,"This wine is extremely sweet and will replenish those who are low in vigor
 Reveal the top card of your deck, if it is a Currency card then replenish 4 health",,,,,,,
-Curse of The Poor,3,Item,Item,Item,Fields of Elysium,"This curse tablet has been inscribed with a curse asking the gods to bestow the carrrier with a lack of wealth
+Curse of The Poor,3,Item,Item,Item,Fields of Arcadia,"This curse tablet has been inscribed with a curse asking the gods to bestow the carrrier with a lack of wealth
 If you own more than 7 Drachma destroy any Drachma until you own only 7
 You may never own more than 7 Drachma while you have this curse
 This item may not be discarded until you move to the City",,,,,,,
-Zeus Crested Ring,3,Equipment,Equipment - Ring,Ring,Hades,"A gold ring imprinted with the crest of Zeus.
+Zeus Crested Ring,3,Equipment,Equipment - Ring,Ring,The Underworld,"A gold ring imprinted with the crest of Zeus.
 -3 Attack Power
 When you play a card which provides Attack Power gain Attack Power equal to how many combat cards you have played this turn.",,,,,,,
-Thunderbolt Amulet,3,Equipment,Equipment - Amulet,Amulet,Hades,"A gold amulet in the shape of a thunderbolt, imbues the wearer with the power of Zeus.
+Thunderbolt Amulet,3,Equipment,Equipment - Amulet,Amulet,The Underworld,"A gold amulet in the shape of a thunderbolt, imbues the wearer with the power of Zeus.
 In your Encounter phase you may discard 3 Currency cards to play Lightning Spear.
 Lightning Spear:
 +3 Attack Power
 This attack is Augmented with Lightning",,,,,,,
-Tidal Amulet,3,Equipment,Equipment - Amulet,Amulet,Hades,"A silver amulet in the shape of a wave, imbues the wearer with the power of Poseidon.
+Tidal Amulet,3,Equipment,Equipment - Amulet,Amulet,The Underworld,"A silver amulet in the shape of a wave, imbues the wearer with the power of Poseidon.
 In your Encounter phase you may discard 3 Currency cards to play Tidal Wave.
 Tidal Wave:
 +1 Attack Power
 You may move the enemy up to 4 spaces away, for every card or player this Enemy moves through gain +1 Attack Power.",,,,,,,
-Heart Amulet,3,Equipment,Equipment - Amulet,Amulet,Hades,"A platinum amulet in the shape of a heart, imbues the wearer with the power of Aphrodite.
+Heart Amulet,3,Equipment,Equipment - Amulet,Amulet,The Underworld,"A platinum amulet in the shape of a heart, imbues the wearer with the power of Aphrodite.
 In your Encounter phase you may discard 3 Currency cards to play Remedy.
 Remedy:
 +2 Defense
 Replenish 2 health",,,,,,,
-Occultist Chain,3,Equipment,Equipment - Amulet,Amulet,Hades,"This heavy chain is worn around the necks for cults who worship Hecate.
+Occultist Chain,3,Equipment,Equipment - Amulet,Amulet,The Underworld,"This heavy chain is worn around the necks for cults who worship Hecate.
 When you play a non-elemental combat card you may augment the card with Fire, Frost or Lightning.
 Each element can only be used once to augment a combat card in a single turn.",,,,,,,
-Tyche Crested Ring,3,Equipment,Equipment - Ring,Ring,Hades,"A tungsten ring imprinted with the crest of Tyche, the goddess of chance and fortune.
+Tyche Crested Ring,3,Equipment,Equipment - Ring,Ring,The Underworld,"A tungsten ring imprinted with the crest of Tyche, the goddess of chance and fortune.
 Buying blind from the combat deck cost 1 less currency.
 When you buy blind draw 2 cards, keep one and discard the other.",,,,,,,
-Lucky Amulet,3,Equipment,Equipment - Amulet,Amulet,Hades,"After your draw phase, you may name a card, then reveal the top card of your personal deck. If you named the revealed card, then put it in your hand.",,,,,,,
-Vine Amulet,3,Equipment,Equipment - Amulet,Amulet,Hades,"This braided amulet has been woven from grape vines, imbues the wearer with the power of Dionysus.
+Lucky Amulet,3,Equipment,Equipment - Amulet,Amulet,The Underworld,"After your draw phase, you may name a card, then reveal the top card of your personal deck. If you named the revealed card, then put it in your hand, otherwise discard it.",,,,,,,
+Vine Amulet,3,Equipment,Equipment - Amulet,Amulet,The Underworld,"This braided amulet has been woven from grape vines, imbues the wearer with the power of Dionysus.
 In your Encounter phase you may discard 3 Currency cards to play Drunken Brawl.
 Drunken Brawl:
 You and your enemy have -2 Attack Power
 Reveal cards from your deck until you revel a card with Attack Power, play this card for 0 play cost and discard any other cards revealed",,,,,,,
-Ring of Favour,3,Equipment,Equipment - Ring,Ring,Hades,"An ancient ring forged as a favour to the gods
+Ring of Favour,3,Equipment,Equipment - Ring,Ring,The Underworld,"An ancient ring forged as a favour to the gods
 -1 Attack Power
 +1 Stength
 +1 Dexterity
 +1 Intelligence",,,,,,,
-Ring of Protection,3,Equipment,Equipment - Ring,Ring,Hades,"This ring was a gift to Athena from Hephaestus
+Ring of Protection,3,Equipment,Equipment - Ring,Ring,The Underworld,"This ring was a gift to Athena from Hephaestus
 +3 Defense",,defense,4,,,,
-Boulder Ring,3,Equipment,Equipment - Ring,Ring,Hades,"A ring set with a chip from Sisyphus' boulder and represents arrogence, malice and blasphemy.
+Boulder Ring,3,Equipment,Equipment - Ring,Ring,The Underworld,"A ring set with a chip from Sisyphus' boulder and represents arrogance, malice and blasphemy.
 Your health is reduced for each enemy reward card you have.
 At the start of your turn, you may claim an enemy reward card that is on top of any discard pile.
 Place your claimed enemy reward cards under this ring, they may not be claimed again but still reduce your health.",,,,,,,
-Spartan Helmet,3,Equipment,Equipment - Helmet,Helmet,Hades,"Plumed helmet worn by the Spartans
+Spartan Helmet,3,Equipment,Equipment - Helmet,Helmet,The Underworld,"Plumed helmet worn by the Spartans
 +2 Defense",,defense,2,,,,
-Corinthian Helmet,3,Equipment,Equipment - Helmet,Helmet,Hades,"These bronze helmets are a staple of any Hellenic military
+Corinthian Helmet,3,Equipment,Equipment - Helmet,Helmet,The Underworld,"These bronze helmets are a staple of any Hellenic military
 +1 Defense
-If you would lose life in battle, reveal a card from your hand that provides Defense to ignore any damage dealt by the enemy",,defense,1,,,,
-Tragedy Mask,3,Equipment,Equipment - Helmet,Helmet,Hades,"These masks were worn in performances to enhance character
+If you would lose life in battle, you may destroy a card that provides defense from your discard pile to prevent any damage dealt by the enemy",,defense,1,,,,
+Tragedy Mask,3,Equipment,Equipment - Helmet,Helmet,The Underworld,"These masks were worn in performances to enhance character
 Before you engage in combat, you may swap an enemies Attack Power and Defense values",,,,,,,
-Parrying Shield,3,Equipment,Equipment - Shield,Shield,Hades,"This small leather wrapped shield is designed to deflect an enemies attack
+Parrying Shield,3,Equipment,Equipment - Shield,Shield,The Underworld,"This small leather wrapped shield is designed to deflect an enemies attack
 +1 Defense
 If your enemy has more Attack Power than you, then ignore the enemies Defense value",,defense,1,,,,
-Aspis,3,Equipment,Equipment - Shield,Shield,Hades,"Heavy wooden shield used by infantry
+Aspis,3,Equipment,Equipment - Shield,Shield,The Underworld,"Heavy wooden shield used by infantry
 +2 Defense
 If you would lose life in battle, reveal the top card of your deck, if it is a combat card then gain +1 Defense",,defense,2,,,,
-Aegis,3,Equipment,Equipment - Shield,Shield,Hades,"The legendary shield of Athena, gifted by Zeus
+Aegis,3,Equipment,Equipment - Shield,Shield,The Underworld,"The legendary shield of Athena, gifted by Zeus
 +2 Defense
 Enemies that resist Lightning have -2 Attack Power
 If you would lose life in battle, reveal the top card of your deck, if it is a combat card then gain +3 Defense",,defense,2,,,,
-Lion Shield,3,Equipment,Equipment - Shield,Shield,Hades,"This wooden shield has been painted with a lion insignia, possibly as a tribute to Hercules
+Lion Shield,3,Equipment,Equipment - Shield,Shield,The Underworld,"This wooden shield has been painted with a lion insignia, possibly as a tribute to Hercules
 +1 Defense
 If your Strength is lower than your opponents Attack Power, then you are considered to have Dexterity equal to your opponents Attack Power
 If you would lose life in battle, reveal the top card of your deck, if it is a card that provides defense then gain +2 Defense",,defense,1,,,,
-Crescent Moon Shield,3,Equipment,Equipment - Shield,Shield,Hades,"A brass shield in the shape of a cresent moon, useful for catching an opponents weapon, this shield is a symbol of Nyx, the goddess of the night
+Crescent Moon Shield,3,Equipment,Equipment - Shield,Shield,The Underworld,"A brass shield in the shape of a cresent moon, useful for catching an opponents weapon, this shield is a symbol of Nyx, the goddess of the night
 You may not equip this shield if Strength is your highest stat
 +2 Defense
 +1 Intelligence
 ",,defense,2,,,,
-Arachne's Robe,3,Equipment,Equipment - Armour,Armour,Hades,"A robe spun from the silk of Arachne
+Arachne's Robe,3,Equipment,Equipment - Armour,Armour,The Underworld,"A robe spun from the silk of Arachne
 +1 Defense
 While equipped you may choose to be unaffected by events",,defense,1,,,,
-Corinthian Shield,3,Equipment,Equipment - Shield,Shield,Hades,"A bronze shield used by Corinthian infantry
+Corinthian Shield,3,Equipment,Equipment - Shield,Shield,The Underworld,"A bronze shield used by Corinthian infantry
 +2 Defense
 If you would lose life in battle, reveal the top card of your deck, if it is a card that provides defense ignore any damage dealt by the enemy",,defense,2,,,,
-Hestia's Robe,3,Equipment,Equipment - Armour,Armour,Hades,"The goddess of the hearth has blessed this robe, when worn a sense of homeliness and familiarity can be felt in siutations which would normally seem daunting
+Hestia's Robe,3,Equipment,Equipment - Armour,Armour,The Underworld,"The goddess of the hearth has blessed this robe, when worn a sense of homeliness and familiarity can be felt in siutations which would normally seem daunting
 +1 Defense
 When you encounter an enemy that has more Attack Power than you have life gain +3 Defense",,defense,1,,,,
-Royal Cuirass,3,Equipment,Equipment - Armour,Armour,Hades,"This black curirass is adorned with a gold trim
+Royal Cuirass,3,Equipment,Equipment - Armour,Armour,The Underworld,"This black curirass is adorned with a gold trim
 +3 Defense
 Whenever you win a battle, lose 1 life
 ",,defense,3,,,,
-Atlas Globe Replica,3,Item,Item,Item,Hades,"This globe is a replica of the world held up by the titan Atlas, spinning the globe recalls a location buried deep in memory
+Atlas Globe Replica,3,Item,Item,Item,The Underworld,"This globe is a replica of the world held up by the titan Atlas, spinning the globe recalls a location buried deep in memory
 Search any discard pile for a location card and place it on top of any encounter deck",,,,,,,
-Vinsanto Wine,3,Item,Item,Item,Hades,"This wine is made by Dionysus and is extremely potent
+Vinsanto Wine,3,Item,Item,Item,The Underworld,"This wine is made by Dionysus and is extremely potent
 Replenish 4 health
 Reveal the top card of your deck, if it provides Attack Power gain a stat, if it provides Defense gain a Combat Card, if it is Currency gain a Drachma, otherwise lose 8 health",,,,,,,
-Limino Wine,3,Item,Item,Item,Hades,"Rumour has it that this wine is the oldest in Greece
+Limino Wine,3,Item,Item,Item,The Underworld,"Rumour has it that this wine is the oldest in Greece
 Reveal the top card of your deck, if it is Currency then gain a Currency card of equal value",,,,,,,
-Old Map,3,Item,Item,Item,Hades,"A torn off piece of an old map
+Old Map,3,Item,Item,Item,The Underworld,"A torn off piece of an old map
 When used you may move any location to any space that allows you to draw cards that currently does not have a location",,,,,,,
-Old Map,3,Item,Item,Item,Hades,"A torn off piece of an old map
+Old Map,3,Item,Item,Item,The Underworld,"A torn off piece of an old map
 When used you may move any location to any space that allows you to draw cards that currently does not have a location",,,,,,,
-Broken Axe,3,Item,Item,Item,Hades,"This axe is beyond repair, but perhaps a god may be able to restore it to it's former glory
+Broken Axe,3,Item,Item,Item,The Underworld,"This axe is beyond repair, but perhaps a god may be able to restore it to it's former glory
 If you bring this item to the Shrine to Ares you may take a Labrys from the Agora Marketplace deck for free",,,,,,,
-Illyrian Helmet,3,Equipment,Equipment - Helmet,Helmet,Hades,"The Illyrian helmet has a long design which even covers the wielders neck and chest
+Illyrian Helmet,3,Equipment,Equipment - Helmet,Helmet,The Underworld,"The Illyrian helmet has a long design which even covers the wielders neck and chest
 +3 Defense for each empty Armour, Shield or Boots slot
 +2 Attack Power for each empty Amulet or Ring slot",,,,,,,
-Talaria,3,Equipment,Equipment - Boots,Boots,Hades,"These winged sandals are worn by Hermes, who claims the wearer can move as swift as any bird
+Talaria,3,Equipment,Equipment - Boots,Boots,The Underworld,"These winged sandals are worn by Hermes, who claims the wearer can move as swift as any bird
 +1 Maximum Movement
 For your movement you may either move 1 or 3 tiles for free",,,,,,,
-Achille's Burnt Shoes,3,Equipment,Equipment - Boots,Boots,Hades,"At his birth, Achilles was dragged from a fire, his feet burnt to a crisp, these sandles are what remains
+Achille's Burnt Shoes,3,Equipment,Equipment - Boots,Boots,The Underworld,"At his birth, Achilles was dragged from a fire, his feet burnt to a crisp, these sandles are what remains
 +1 Maximum Movement
 You may move an additional space for free
 If you defeat an enemy using a Combat Card augmented with Fire you may move an additional space (but do not encounter the space)",,,,,,,
-Heavy Treads,3,Equipment,Equipment - Boots,Boots,Hades,"This greaves are reinforced with a combination of Iron and Brass making them very heavy
+Heavy Treads,3,Equipment,Equipment - Boots,Boots,The Underworld,"This greaves are reinforced with a combination of Iron and Brass making them very heavy
 +1 Defense
 +1 Maximum Movement
 You may move an additional space for free
 If you defeat an enemy using a Combat Card providing defense you may move an additional space (but do not encounter the space)",,,,,,,
-Regal Sandles,3,Equipment,Equipment - Boots,Boots,Hades,"These sandles are encrusted with gems and jewels and sought after by the very wealthy
+Regal Sandles,3,Equipment,Equipment - Boots,Boots,The Underworld,"These sandles are encrusted with gems and jewels and sought after by the very wealthy
 If you own less than 5 Drachma at any time you must discard the Regal Sandles
 +1 Maximum Movement
 You may move an additional space for free
 If you start your movement within 5 spaces of a location or tile that allows you to spend Drachma you may immediately move to that space
 ",,,,,,,
-Hestia's Feast,5,Event,Event,Event,Hades,"Hestia has offered you a seat at the next Feast of Olympus, replenish 5 health",,,,,,,
-Tidal Wave,5,Event,Event,Event,Hades,"Poseidon has been enraged by Amphitrite after she rejected his offer of marriage. In his rage he has summoned a great wave to wash over the land.
+Hestia's Feast,5,Event,Event,Event,The Underworld,"Hestia has offered you a seat at the next Feast of Olympus, replenish 5 health",,,,,,,
+Tidal Wave,5,Event,Event,Event,The Underworld,"Poseidon has been enraged by Amphitrite after she rejected his offer of marriage. In his rage he has summoned a great wave to wash over the land.
 Move all face up cards two spaces down, if the cards would enter the River Styx or move off the board then destroy them.",,,,,,,
-Sisyphus' Boulder,5,Event,Event,Event,Hades,"Sisyphus defied the gods in his hubris, and was forced to push a massive boulder up hill for eternity.
+Sisyphus' Boulder,5,Event,Event,Event,The Underworld,"Sisyphus defied the gods in his hubris, and was forced to push a massive boulder up hill for eternity.
 Once again he has dropped this boulder causing it to roll until he catches it.
 Move this card 6 spaces in the direction that you just moved, any enemies that this passes through are destroyed.
 If this card moves through another player they lose 5 health and this card is discarded.",,,,,,,
-Full Moon,5,Event,Event,Event,Hades,"Nyx has blessed the night with a full moon and those who pray to her are empowered
-Each player, starting with you, may draw the top card from the encounter deck of the region they currently im, if a enemy is draw they may claim the reward and discard the enemy",,,,,,,
-Fissure,5,Event,Event,Event,Hades,"The ground in Hades can be unstable and a fissure can open up to consume souls
-A fissure opens up in each space you just moved, and 3 spaces in front of you, in the same direction of your movement, starting from the tile you are on
-Any characters within these tiles must lose a random item",,,,,,,
-Themis' Council,5,Event,Event,Event,Hades,"Themis has ordained that by her scales, balance must be bestowed upon you
+Full Moon,5,Event,Event,Event,The Underworld,"Nyx has blessed the night with a full moon and those who pray to her are empowered.
+Each player, starting with you, may draw the top card from the encounter deck of the region they currently in, if a enemy is draw they may claim the reward and discard the enemy",,,,,,,
+Fissure,5,Event,Event,Event,The Underworld,"The ground in The Underworld can be unstable and a fissure can open up to consume souls.
+A fissure opens up in each space you just moved, and 3 spaces in front of you, in the same direction of your movement, starting from the tile you are on.
+Any characters within these tiles must lose a random item.",,,,,,,
+Themis' Council,5,Event,Event,Event,The Underworld,"Themis has ordained that by her scales, balance must be bestowed upon you
 Destroy a stat card in which you have the highest stat and gain a stat card in which you have the lowest stat",,,,,,,
-Thick Fog,5,Event,Event,Event,Hades,"A vast and obscure fog has covered the land, keep this card in play until another event is drawn, players may only move a maximum of 2 spaces while this is active",,,,,,,
-Pandora's Box,5,Event,Event,Event,Hades,"Agonising curiosity led Pandora to open the box which she was forbidden to ever open, thus unleashing sin unto the world.
+Thick Fog,5,Event,Event,Event,The Underworld,"A vast and obscure fog has covered the land, keep this card in play until another event is drawn, players may only move a maximum of 2 spaces while this is active",,,,,,,
+Pandora's Box,5,Event,Event,Event,The Underworld,"Agonising curiosity led Pandora to open the box which she was forbidden to ever open, thus unleashing sin unto the world.
 Reveal the top 7 cards of the Combat Deck, lose health equal to the total Attack Power of the revealed cards, minus your current Defense
 If you survived you may gain up to 3 of these revealed cards",,,,,,,
-Allure of the Succubus,5,Event,Event,Event,Hades,"A succubus has lured you into it's trap
+Allure of the Succubus,5,Event,Event,Event,The Underworld,"A succubus has lured you into it's trap
 Move all enemies in this region to this space and then encounter them",,,,,,,
-Stolen Nectar,5,Event,Event,Event,Hades,"The mortal Tantalus, who was often invited to dine with the gods, has stolen some ambrosia and nectar from Olympus and has shard them with other mortals.
+Stolen Nectar,5,Event,Event,Event,The Underworld,"The mortal Tantalus, who was often invited to dine with the gods, has stolen some ambrosia and nectar from Olympus and has shard them with other mortals.
 The Olympians have discovered this blasphemy and are furious and demand all mortals pay for their treachery. Any character within 1 space of a Shrine must lose 5 Drachma.",,,,,,,
-Tantalising Punishment,5,Event,Event,Event,Hades,"As punishment for feeding his own child to the Gods, Tantalus was placed in a pool of water, beneath a fruit tree with low branches. Whenever he reached for the fruit, the wind wafted the branches away, and whenever he reached for water to take a drink it flowed away from him. You may torment Tantalus by eating a fruit from the tree, pleasing the gods, gain a random card from the Oracle deck. Otherwise you may aid Tantalus and feed him the fruit, outraging the gods, lose 5 life and take any item for free from the Agora Marketplace deck, as a gift from Tantalus.",,,,,,,
-War Funds,5,Event,Event,Event,Hades,"A lack of warfare recently has made Ares demand that more must be provided to mortals to encourage their bloodlust.
+Tantalising Punishment,5,Event,Event,Event,The Underworld,"As punishment for feeding his own child to the Gods, Tantalus was placed in a pool of water, beneath a fruit tree with low branches. Whenever he reached for the fruit, the wind wafted the branches away, and whenever he reached for water to take a drink it flowed away from him. You may torment Tantalus by eating a fruit from the tree, pleasing the gods, gain a random card from the Oracle deck. Otherwise you may aid Tantalus and feed him the fruit, outraging the gods, lose 5 life and take any item for free from the Agora Marketplace deck, as a gift from Tantalus.",,,,,,,
+War Funds,5,Event,Event,Event,The Underworld,"A lack of warfare recently has made Ares demand that more must be provided to mortals to encourage their bloodlust.
 Keep this event in play until a new event is drawn.
 Whenever a character encounters an enemy they also gain a Drachma.",,,,,,,
-Thanatos' Shackles,5,Event,Event,Event,Hades,"Thanatos, the personification of Death, was sent to kill Sisyphus, in a demonstration of how easy it is for him to kill Thanatos demonstrated his unbreakable shackles. Sisyphus managed to convince Thanatos to try on the shackles himself, realising this was a trcik too late, Thanatos was locked in a closet by Sisyphus. Until he is found by the gods no death can occur in the world.
+Thanatos' Shackles,5,Event,Event,Event,The Underworld,"Thanatos, the personification of Death, was sent to kill Sisyphus, in a demonstration of how easy it is for him to kill Thanatos demonstrated his unbreakable shackles. Sisyphus managed to convince Thanatos to try on the shackles himself, realising this was a trcik too late, Thanatos was locked in a closet by Sisyphus. Until he is found by the gods no death can occur in the world.
 Keep this card in play until another event is draw.
 No players may go below 1 health, and no enemy rewards can be claimed while this card is in play.",,,,,,,
-Isles of the Blessed,6,Location,Location,Location,Hades,"These isles are said to bestow renewal upon those who come here, perhaps even the posibility of being reborn.
-Players who land here may destroy any combat cards from their hand and then must gain an equal amount of cards destroyed from the combat cards currently available to purchase.",,,,,,,
-Persephone's Chamber,6,Location,Location,Location,Hades,"Persephone, the daughted of Demeter, who was abducted by Hades, who desired a wife, has now found a comfortable home within the underworld. Persephone has been in touch with her dark side since arriving in the underworld. Players landing in this location may lose a life to steal an enemy reward card from another player.",,,,,,,
-Pomegranate Seed,3,Item,Item,Item,Hades,"Pomegrante seeds are sacred in the underworld, and if eaten they shall bind you in Hades forever. You may not discard this item until you have reached the Throne of Hades.
-You may not leave Hades while you have this item, even if you would be moved by an event or item, such as a portal stone.",,,,,,,
-Charon the Boatman,6,Location,Location,Location,Hades,"The wicked boatman Charon offers passage across the river Styx to all those who can pay.
+Isles of the Blessed,6,Location,Location,Location,The Underworld,"These isles are said to bestow renewal upon those who come here, perhaps even the posibility of being reborn.
+Players who land here may draw three combat cards and destroy any of these cards and then must gain an equal amount of cards destroyed from the combat cards currently available to purchase.",,,,,,,
+Persephone's Chamber,6,Location,Location,Location,The Underworld,"Persephone, the daughted of Demeter, who was abducted by Hades, who desired a wife, has now found a comfortable home within the underworld. Persephone has been in touch with her dark side since arriving in the underworld. Players landing in this location may lose a life to steal an enemy reward card from another player.",,,,,,,
+Pomegranate Seed,3,Item,Item,Item,The Underworld,"Pomegrante seeds are sacred in the underworld, and if eaten they shall bind you in The Underworld forever. You may not discard this item until you have reached the Throne of The Underworld.
+You may not leave The Underworld while you have this item, even if you would be moved by an event or item, such as a portal stone.",,,,,,,
+Charon the Boatman,6,Location,Location,Location,The Underworld,"The wicked boatman Charon offers passage across the river Styx to all those who can pay.
 Place this location on any tile in the River Styx.
 Players who land adjacent to this card may reveal the top card of their deck, if a copper is revealed you may pay a Drachma to be ferried to the space below Cerberus, if a silver is revealed yoy may be ferried to the space below Cerbeus, if a gold is revealed you may be ferried to the space in hades adjacent to this card.",,,,,,,
-Depths of Tartarus,6,Location,Location,Location,Hades,"The tunnels and depths of Tartarus extend far beyond the city itself, and you have found an entrance to these tunnels. Draw the top 10 cards of the Hades encounter deck facedown and place them on this location.
+Depths of Tartarus,6,Location,Location,Location,The Underworld,"The tunnels and depths of Tartarus extend far beyond the city itself, and you have found an entrance to these tunnels. Draw the top 10 cards of the The Underworld encounter deck facedown and place them on this location.
 Players landing on this location may pay up to 5 Drachma to reveal and encounter a card for each Drachma paid, once all cards are revealed discard this location.",,,,,,,
-Divine Font of Intelligence,6,Location,Location,Location,Hades,"A font containing water blessed by the gods, that when drank provides a sense of wisdom. Place 3 tokens on this location, if a player lands here they may remove a token to gain 1 intelligence. A player may only claim one token, once all tokens are gone the font is empty and can be removed from the board.",,,,,,,
-Harpie,1,Enemy,Enemy - Monster,Monster,Hades,"A harpie has the face of a female human and the form of a bird, with sharp claws. The harpies dragged people down to Hades and tortured them on their way.
+Divine Font of Intelligence,6,Location,Location,Location,The Underworld,"A font containing water blessed by the gods, that when drank provides a sense of wisdom. Place 3 tokens on this location, if a player lands here they may remove a token to gain 1 intelligence. A player may only claim one token, once all tokens are gone the font is empty and can be removed from the board.",,,,,,,
+Harpie,1,Enemy,Enemy - Monster,Monster,The Underworld,"A harpie has the face of a female human and the form of a bird, with sharp claws. The harpies dragged people down to The Underworld and tortured them on their way.
 Weakness: Lightning","Reward:
 +4 Drachma",attackpower,6,defense,3,life,7
-Harpie,1,Enemy,Enemy - Monster,Monster,Hades,"A harpie has the face of a female human and the form of a bird, with sharp claws. The harpies dragged people down to Hades and tortured them on their way.
+Harpie,1,Enemy,Enemy - Monster,Monster,The Underworld,"A harpie has the face of a female human and the form of a bird, with sharp claws. The harpies dragged people down to The Underworld and tortured them on their way.
 Weakness: Lightning","Reward:
 +4 Drachma",attackpower,6,defense,3,life,7
-Lamia,1,Enemy,Enemy - Monster,Monster,Hades,"Lamia was a mistress of Zeus, until his jealous wife Hera, cursed Lamia causing her to become a child eating demon.","Reward:
+Lamia,1,Enemy,Enemy - Monster,Monster,The Underworld,"Lamia was a mistress of Zeus, until his jealous wife Hera, cursed Lamia causing her to become a child eating demon.","Reward:
 Claim at the same time as another enemy reward card to claim it twice",attackpower,8,defense,3,life,8
-Gorgon,1,Enemy,Enemy - Monster,Monster,Hades,"The gorgons were a race of cave dwellers who has snakes for hair, staring into the eyes of a Gorgon will turn you to stone.","Reward:
+Gorgon,1,Enemy,Enemy - Monster,Monster,The Underworld,"The gorgons were a race of cave dwellers who has snakes for hair, staring into the eyes of a Gorgon will turn you to stone.","Reward:
 Use on another players turn at the start of their movement. You may choose where they move, up to 3 spaces away from their current space.",attackpower,9,defense,5,life,9
-Gorgon,1,Enemy,Enemy - Monster,Monster,Hades,"The gorgons were a race of cave dwellers who has snakes for hair, staring into the eyes of a Gorgon will turn you to stone.","Reward:
+Gorgon,1,Enemy,Enemy - Monster,Monster,The Underworld,"The gorgons were a race of cave dwellers who has snakes for hair, staring into the eyes of a Gorgon will turn you to stone.","Reward:
 Use on another players turn at the start of their movement. You may choose where they move, up to 3 spaces away from their current space.",attackpower,9,defense,5,life,9
-Manticore,1,Enemy,Enemy - Monster,Monster,Hades,"The manticore is a winged creature with the body of a lion and a scorpions stinger
+Manticore,1,Enemy,Enemy - Monster,Monster,The Underworld,"The manticore is a winged creature with the body of a lion and a scorpions stinger
 Resists: Poison","Reward:
 +4 Drachma",attackpower,8,defense,0,life,10
-Manticore,1,Enemy,Enemy - Monster,Monster,Hades,"The manticore is a winged creature with the body of a lion and a scorpions stinger
+Manticore,1,Enemy,Enemy - Monster,Monster,The Underworld,"The manticore is a winged creature with the body of a lion and a scorpions stinger
 Resists: Poison","Reward:
 +4 Drachma",attackpower,8,defense,0,life,10
-Thanatos,1,Enemy,Enemy - Human,Human,Hades,"The god of death, Thanatos carries a giant scyth used for harvesting souls
+Thanatos,1,Enemy,Enemy - Human,Human,The Underworld,"The god of death, Thanatos carries a giant scyth used for harvesting souls
 Resists: Physical","Reward:
 Used when you are about to engage in combat with an enemy, you automatically defeat the enemy",attackpower,11,defense,4,life,10
-Hypnos,1,Enemy,Enemy - Human,Human,Hades,"Hypnos is the god of sleep and can torment those who anger him with nightmares
+Hypnos,1,Enemy,Enemy - Human,Human,The Underworld,"Hypnos is the god of sleep and can torment those who anger him with nightmares
 Resists: Physical","Reward:
 Put any face up enemy to sleep by shuffling the card into its encounter deck",attackpower,8,defense,0,life,9
-Alecto,1,Enemy,Enemy - Monster,Monster,Hades,"One of the three furies who have blood shot eyes and the wings of a bat. Alecto is the embodiment of vengeance.
+Alecto,1,Enemy,Enemy - Monster,Monster,The Underworld,"One of the three furies who have blood shot eyes and the wings of a bat. Alecto is the embodiment of vengeance.
 ","Reward:
-If you are defeated in battle, you may claim this reward to draw another hand and battle the enemy again",attackpower,7,defense,3,life,7
-Tisiphone,1,Enemy,Enemy - Monster,Monster,Hades,"One of the three furies who have blood shot eyes and the wings of a bat. Tisiphone is the embodiment of murder.
+If you are defeated in battle, you may claim this reward to draw 3 more cards, play them at no cost and battle the enemy again",attackpower,7,defense,3,life,7
+Tisiphone,1,Enemy,Enemy - Monster,Monster,The Underworld,"One of the three furies who have blood shot eyes and the wings of a bat. Tisiphone is the embodiment of murder.
 ","Reward:
 Use when another player claims an enemy reward, you may also gain the reward",attackpower,7,defense,3,life,7
-Megaera,1,Enemy,Enemy - Monster,Monster,Hades,One of the three furies who have blood shot eyes and the wings of a bat. Megaera is the embodiment of jealousy.,"Reward:
+Megaera,1,Enemy,Enemy - Monster,Monster,The Underworld,One of the three furies who have blood shot eyes and the wings of a bat. Megaera is the embodiment of jealousy.,"Reward:
 Use when another player gains Drachma, you may gain an equal amount of Drachma",attackpower,7,defense,3,life,7
-Arae,1,Enemy,Enemy - Monster,Monster,Hades,"The arae are a female spirit of curses, their curses are placed upon the dead who roam the underworld
+Arae,1,Enemy,Enemy - Monster,Monster,The Underworld,"The arae are a female spirit of curses, their curses are placed upon the dead who roam the underworld
 Resists: Frost
 Weakness: Fire","Reward:
 +4 Drachma",attackpower,6,defense,0,life,6
-Arae,1,Enemy,Enemy - Monster,Monster,Hades,"The arae are a female spirit of curses, their curses are placed upon the dead who roam the underworld
+Arae,1,Enemy,Enemy - Monster,Monster,The Underworld,"The arae are a female spirit of curses, their curses are placed upon the dead who roam the underworld
 Resists: Frost
 Weakness: Fire","Reward:
 +4 Drachma",attackpower,6,defense,0,life,7
-Cerastes,1,Enemy,Enemy - Monster,Monster,Hades,A spineless serpent with a set of ram-like horns on it's head,"Reward:
+Cerastes,1,Enemy,Enemy - Monster,Monster,The Underworld,A spineless serpent with a set of ram-like horns on it's head,"Reward:
 +4 Drachma",attackpower,7,defense,3,life,6
-Daimon,1,Enemy,Enemy - Monster,Monster,Hades,"The guardian spirit of the dead, this spirit protects those who wish to harm those who were killed unjustly
+Daimon,1,Enemy,Enemy - Monster,Monster,The Underworld,"The guardian spirit of the dead, this spirit protects those who wish to harm those who were killed unjustly
 ","Reward:
 Gain any combat card that is currently purchasable that provides an augment of Poison, Fire or Frost",attackpower,9,defense,4,life,8
-Polyphemus,1,Enemy,Enemy - Monster,Monster,Hades,"The son of poseidon, this collosal Cyclops was blinded by Odysseus","Reward:
+Polyphemus,1,Enemy,Enemy - Monster,Monster,The Underworld,"The son of poseidon, this collosal Cyclops was blinded by Odysseus","Reward:
 Gain a stat of your choice",attackpower,7,defense,2,life,14
-Eidolon,1,Enemy,Enemy - Monster,Monster,Hades,"A eidolon manifests itself infront of you, the eidolons are spirit images of dead people who take on a human form
+Eidolon,1,Enemy,Enemy - Monster,Monster,The Underworld,"A eidolon manifests itself infront of you, the eidolons are spirit images of dead people who take on a human form
 Physical damage will do no damage to the Eiodolon","Reward:
 Claim when another player claims a enemy reward card, instead of putting it in the discard pile you may shuffle it into any encounter deck",attackpower,6,defense,0,life,8
-Empusa,1,Enemy,Enemy - Monster,Monster,Hades,"Empusa is a beautiful demigoddess, with flaming hair and one brass leg, and the one donkey leg. She waits around here to prey on passing humans flesh and blood.
+Empusa,1,Enemy,Enemy - Monster,Monster,The Underworld,"Empusa is a beautiful demigoddess, with flaming hair and one brass leg, and the one donkey leg. She waits around here to prey on passing humans flesh and blood.
 Resists: Fire
 Weakness: Frost","Reward:
 Use to triple the Attack Power of any fire augmented combat card",attackpower,8,defense,4,life,11
-Eurynomos,1,Enemy,Enemy - Monster,Monster,Hades,"Eurynomos dwells in the underworld, he is the demon of rotting corpses and guards the piles of humans who met a less than fortunate fate in Hades.
+Eurynomos,1,Enemy,Enemy - Monster,Monster,The Underworld,"Eurynomos dwells in the underworld, he is the demon of rotting corpses and guards the piles of humans who met a less than fortunate fate in The Underworld.
 Resists: Poison","Reward:
 Use to triple the Attack Power of any poison augmented combat card",attackpower,8,defense,4,life,11
-Ferocious Wolf,1,Enemy,Enemy - Animal,Animal,Hades,This fearsom wolf is looking for his next victim.,"Reward:
+Ferocious Wolf,1,Enemy,Enemy - Animal,Animal,The Underworld,This fearsom wolf is looking for his next victim.,"Reward:
 +3 Drachma",attackpower,6,defense,2,life,7
-Locust Swarm,1,Enemy,Enemy - Animal,Animal,Hades,"More of an annoyance than a threat, these locusts are enough of a pest to strike back.","Reward:
+Locust Swarm,1,Enemy,Enemy - Animal,Animal,The Underworld,"More of an annoyance than a threat, these locusts are enough of a pest to strike back.","Reward:
 +3 Drachma",attackpower,8,defense,2,life,7
-Gluttonous Bear,1,Enemy ,Enemy - Animal,Animal,Hades,A bear who has recently left hibernation has become protective of his hovel.,"Reward:
+Gluttonous Bear,1,Enemy ,Enemy - Animal,Animal,The Underworld,A bear who has recently left hibernation has become protective of his hovel.,"Reward:
 When claimed, immediately shuffle your discard pile into your personal deck",attackpower,7,defense,1,life,9
-Charging Bull,1,Enemy,Enemy - Animal,Animal,Hades,"The bull storms towards you destroying everything in its path.
+Charging Bull,1,Enemy,Enemy - Animal,Animal,The Underworld,"The bull storms towards you destroying everything in its path.
 Weakness: Fire","Reward:
 Shuffle all purchasable combat cards back into the deck when claimed",attackpower,7,defense,0,life,9
-Illusionist,1,Enemy,Enemy - Human,Human,Hades,"A deceptive trap tricks into a fight with this magi
+Illusionist,1,Enemy,Enemy - Human,Human,The Underworld,"A deceptive trap tricks into a fight with this magi
 Resists: Fire and Frost","Reward:
 When claimed, choose a combat card you have played this turn, this now counts as if you played it twice",attackpower,7,defense,4,life,8
-Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Hades,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
+Giant Skeleton,1,Enemy,Enemy - Monster,Monster,The Underworld,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
 +3 Drachma",attackpower,7,defense,0,life,8
-Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Hades,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
+Giant Skeleton,1,Enemy,Enemy - Monster,Monster,The Underworld,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
 +3 Drachma",attackpower,7,defense,0,life,8
-Giant Skeleton,1,Enemy,Enemy - Monster,Monster,Hades,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
+Giant Skeleton,1,Enemy,Enemy - Monster,Monster,The Underworld,A giant from a lost kingdom has risen and attacks you on sight,"Reward:
 +3 Drachma",attackpower,7,defense,0,life,8
-Hippogriff,1,Enemy,Enemy - Monster,Monster,Hades,"The symbol of Apollo, this creature has an eagles head on a horses body.","Reward:
+Hippogriff,1,Enemy,Enemy - Monster,Monster,The Underworld,"The symbol of Apollo, this creature has an eagles head on a horses body.","Reward:
 Move two additional grid spaces for free",attackpower,8,defense,1,life,8
-Persian Immortal,1,Enemy,Enemy - Human,Human,Hades,"The immortals attack from the shadows, using scare tactics to intimidate their foes.
+Persian Immortal,1,Enemy,Enemy - Human,Human,The Underworld,"The immortals attack from the shadows, using scare tactics to intimidate their foes.
 Resists: Physical","Reward:
 +3 Drachma",attackpower,7,defense,4,life,7
-Vengeful Satyr,1,Enemy,Enemy - Monster,Monster,Hades,"A companion of Pan, this Satyr is particularly aggressive.
+Vengeful Satyr,1,Enemy,Enemy - Monster,Monster,The Underworld,"A companion of Pan, this Satyr is particularly aggressive.
 Resists: Fire
 Weakness: Frost","Reward:
 Steal a card from a players hand at random",attackpower,7,defense,3,life,9
-Hippocampus,1,Enemy,Enemy - Monster,Monster,Hades,"Found in rivers and lakes, this creature is half horse, half fish
+Hippocampus,1,Enemy,Enemy - Monster,Monster,The Underworld,"Found in rivers and lakes, this creature is half horse, half fish
 Weakness: Lightning","Reward:
-Immediately travel to the Ruins in Fields of Elysium when claimed",attackpower,6,defense,3,life,6
-Corinthian Warrior,1,Enemy,Enemy - Human,Human,Hades,"Dressed in heavy armour this warrior makes for a tough opponent
+Immediately travel to the Ruins in Fields of Arcadia when claimed",attackpower,6,defense,3,life,6
+Corinthian Warrior,1,Enemy,Enemy - Human,Human,The Underworld,"Dressed in heavy armour this warrior makes for a tough opponent
 Resists: Physical
 Weakness: Poison","Reward:
 When claimed, gain +5 defense this turn",attackpower,6,defense,7,life,6
-Viper,1,Enemy,Enemy - Animal,Animal,Hades,"Sneaking through the grass the viper has a deadly bite
+Viper,1,Enemy,Enemy - Animal,Animal,The Underworld,"Sneaking through the grass the viper has a deadly bite
 Resists: Poison","Reward:
 +3 Drachma",attackpower,7,defense,0,life,7
-Kobaloi,1,Enemy,Enemy - Animal,Animal,Hades,"A mischievious creature, fond of tricking mortals
+Kobaloi,1,Enemy,Enemy - Animal,Animal,The Underworld,"A mischievious creature, fond of tricking mortals
 Weakness: Fire","Reward:
 +3 Drachma",attackpower,6,defense,0,life,6
-Kobaloi,1,Enemy,Enemy - Animal,Animal,Hades,"A mischievious creature, fond of tricking mortals
+Kobaloi,1,Enemy,Enemy - Animal,Animal,The Underworld,"A mischievious creature, fond of tricking mortals
 Weakness: Fire","Reward:
 +3 Drachma",attackpower,6,defense,0,life,7
-Weasel,1,Enemy,Enemy - Animal,Animal,Hades,A weasel catches you off guard and tries to steal your food,"Reward:
+Weasel,1,Enemy,Enemy - Animal,Animal,The Underworld,A weasel catches you off guard and tries to steal your food,"Reward:
 +3 Drachma",attackpower,6,defense,0,life,6
-Great Bat,1,Enemy,Enemy - Animal,Animal,Hades,"Searching for blood, this bat attacks at night","Reward:
+Great Bat,1,Enemy,Enemy - Animal,Animal,The Underworld,"Searching for blood, this bat attacks at night","Reward:
 +3 Drachma",attackpower,7,defense,0,life,6
-Catoblepas,1,Enemy,Enemy - Monster,Monster,Hades,"This buffalo-like creature has shaggy fur, large horns and toxic breath
+Catoblepas,1,Enemy,Enemy - Monster,Monster,The Underworld,"This buffalo-like creature has shaggy fur, large horns and toxic breath
 Resists: Poison
 Weakness: Fire","Reward:
 When claimed all attack cards this turn are augmented with poison",attackpower,8,defense,0,life,6
-Disciple of Hecate,1,Enemy,Enemy - Human,Human,Hades,A follower of the goddess of the moon and witchcraft,"Reward:
+Disciple of Hecate,1,Enemy,Enemy - Human,Human,The Underworld,A follower of the goddess of the moon and witchcraft,"Reward:
 When claimed, draw two additional cards in your draw phase",attackpower,7,defense,2,life,7
-Giant Centipede,1,Enemy,Enemy - Animal,Animal,Hades,The creature has a thick carapace on its back,"Reward:
+Giant Centipede,1,Enemy,Enemy - Animal,Animal,The Underworld,The creature has a thick carapace on its back,"Reward:
 +3 Drachma",attackpower,6,defense,5,life,6
-Sacred Owl,1,Enemy,Enemy - Animal,Animal,Hades,"The owl is a symbol of Athena, and are considered sacred
+Sacred Owl,1,Enemy,Enemy - Animal,Animal,The Underworld,"The owl is a symbol of Athena, and are considered sacred
 Resists: Frost
 Weakness: Fire","Reward:
 +3 Drachma",attackpower,6,defense,0,life,6
-Sacred Owl,1,Enemy,Enemy - Animal,Animal,Hades,"The owl is a symbol of Athena, and are considered sacred
+Sacred Owl,1,Enemy,Enemy - Animal,Animal,The Underworld,"The owl is a symbol of Athena, and are considered sacred
 Resists: Frost
 Weakness: Fire","Reward:
 +3 Drachma",attackpower,6,defense,0,life,6
-Agrianian Peltast,1,Enemy,Enemy - Human,Human,Hades,"Hiding behind a shield this peltast hurls javelins at his opponents
+Agrianian Peltast,1,Enemy,Enemy - Human,Human,The Underworld,"Hiding behind a shield this peltast hurls javelins at his opponents
 Resists: Physical","Reward:
 When claimed, gain +4 defense on this turn",attackpower,7,defense,5,life,6
-Macedonian Soldier,1,Enemy,Enemy - Human,Human,Hades,"A soldier hailing from the Macedonian kingdom, equipped with a large spear
+Macedonian Soldier,1,Enemy,Enemy - Human,Human,The Underworld,"A soldier hailing from the Macedonian kingdom, equipped with a large spear
 Resists: Physical","Reward:
 +3 Drachma",attackpower,8,defense,6,life,6
-Macedonian Soldier,1,Enemy,Enemy - Human,Human,Hades,"A soldier hailing from the Macedonian kingdom, equipped with a large spear
+Macedonian Soldier,1,Enemy,Enemy - Human,Human,The Underworld,"A soldier hailing from the Macedonian kingdom, equipped with a large spear
 Resists: Physical","Reward:
 +3 Drachma",attackpower,8,defense,6,life,6
-Thessalian Cavalry,1,Enemy,Enemy - Human,Human,Hades,"Attacking from horseback, this cavalry infantry dominates in speed and power
+Thessalian Cavalry,1,Enemy,Enemy - Human,Human,The Underworld,"Attacking from horseback, this cavalry infantry dominates in speed and power
 Resists: Physical","Reward:
 When claimed, gain 2 additional maximum movement this turn",attackpower,8,defense,4,life,7
-Thessalian Cavalry,1,Enemy,Enemy - Human,Human,Hades,"Attacking from horseback, this cavalry infantry dominates in speed and power
+Thessalian Cavalry,1,Enemy,Enemy - Human,Human,The Underworld,"Attacking from horseback, this cavalry infantry dominates in speed and power
 Resists: Physical","Reward:
 When claimed, gain 2 additional maximum movement this turn",attackpower,8,defense,4,life,7
-Thracian Infantry,1,Enemy,Enemy - Human,Human,Hades,The thracians used cresent shaped shields to catch their enemies weapons,"Reward:
+Thracian Infantry,1,Enemy,Enemy - Human,Human,The Underworld,The thracians used cresent shaped shields to catch their enemies weapons,"Reward:
 +3 Drachma",attackpower,8,defense,4,life,7
-Thracian Infantry,1,Enemy,Enemy - Human,Human,Hades,The thracians used cresent shaped shields to catch their enemies weapons,"Reward:
+Thracian Infantry,1,Enemy,Enemy - Human,Human,The Underworld,The thracians used cresent shaped shields to catch their enemies weapons,"Reward:
 +3 Drachma",attackpower,8,defense,4,life,7
-Mountain Lion,1,Enemy,Enemy - Animal,Animal,Hades,A mountain lion stalks this area searching for food,"Reward:
+Mountain Lion,1,Enemy,Enemy - Animal,Animal,The Underworld,A mountain lion stalks this area searching for food,"Reward:
 +3 Drachma",attackpower,7,defense,0,life,7
-Damysus,1,Enemy,Enemy - Monster,Monster,Hades,"The fastest of the Giants, whose ankle was removed and used to heal Achilles' burnt foot","Reward:
+Damysus,1,Enemy,Enemy - Monster,Monster,The Underworld,"The fastest of the Giants, whose ankle was removed and used to heal Achilles' burnt foot","Reward:
 You can move 5 spaces for free this turn",attackpower,8,defense,4,life,9
-Crocotta,1,Enemy,Enemy - Monster,Monster,Hades,The Crocotta is a dog-like creature that can mimick the human voice and uses this to lure people into its den.,"Reward:
+Crocotta,1,Enemy,Enemy - Monster,Monster,The Underworld,The Crocotta is a dog-like creature that can mimick the human voice and uses this to lure people into its den.,"Reward:
 When claimed, choose a card that another player has in play, this counts as if you have played the chosen card this turn.",attackpower,6,defense,3,life,9
+Craven Magos,1,Enemy,Enemy - Human,Human,Hellenic Plains,"This magos lives away from society in dark caverns.
+Resists: Ice","Reward:
++1 Drachma",attackpower,2,defense,2,life,3
