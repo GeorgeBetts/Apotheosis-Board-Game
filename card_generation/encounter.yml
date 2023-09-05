@@ -1,19 +1,19 @@
 card:
-  font: 'Palatino Linotype, Sans 18'
-  color: '#2e3546'
+  font: "Palatino Linotype, Sans 18"
+  color: "#2e3546"
+  spacing: 10
+  # hint: "#fff"
+  ellipsize: :autoscale
 
 title:
   extends: card
   x: 200
   y: 110
   width: 435
-  height: 50
+  height: 150
   align: center
-  font_size: 14
-
-title-sm:
-  extends: title
-  font_size: 12
+  valign: middle
+  font_size: 16
 
 art:
   x: 285
@@ -32,7 +32,9 @@ priorityicon:
 
 priority:
   extends: priorityicon
-  x: +140
+  x: += 72
+  y: += 9
+  valign: middle
   font_size: 14
 
 block:
@@ -41,30 +43,28 @@ block:
   width: 675
   height: 975
   radius: 16
-  fill_color: '#e0ddd5'
-  stroke_color: '#e0ddd5'
-
+  fill_color: "#e0ddd5"
+  stroke_color: "#e0ddd5"
 
 Item:
-  color: '#6F3A31'
+  color: "#6F3A31"
 
 Enemy:
-  color: '#703529'
+  color: "#703529"
 
 Event:
-  color: '#e0ddd5'
+  color: "#e0ddd5"
 
 Location:
-  color: '#c6934b'
-
+  color: "#c6934b"
 
 Equipment:
-  color: '#A9A9A9'
+  color: "#A9A9A9"
 
 bonus1:
   extends: card
   x: 100
-  y: 965
+  y: 975
   width: 295
   height: 80
   valign: middle
@@ -74,7 +74,7 @@ bonus1:
 bonus1icon:
   extends: bonus1
   x: +405
-  y: 980
+  y: 975
   width: 60
   height: 60
   align: left
@@ -82,7 +82,7 @@ bonus1icon:
 bonus2:
   extends: card
   x: 350
-  y: 965
+  y: 975
   width: 295
   height: 80
   valign: middle
@@ -92,16 +92,16 @@ bonus2:
 bonus2icon:
   extends: bonus2
   x: +655
-  y: 980
+  y: 975
   width: 60
   height: 60
   align: left
 
 bonus3:
   extends: card
-  x: 10
-  y: 965
-  width: 125
+  x: 0
+  y: 975
+  width: 135
   height: 80
   valign: middle
   align: right
@@ -110,7 +110,7 @@ bonus3:
 bonus3icon:
   extends: bonus2
   x: +140
-  y: 980
+  y: 975
   width: 60
   height: 60
   align: left
@@ -120,51 +120,55 @@ type:
   x: 100
   y: 540
   width: 625
-  height: 275
+  height: 35
   valign: top
   align: center
-  color: '#2e3546'
+  color: "#2e3546"
   font_size: 7
   font_weight: 600
 
 description:
   extends: card
   x: 100
-  y: 560
+  y: 572
   width: 625
-  height: 355
+  height: 280
   valign: middle
   align: center
-  color: '#2e3546'
-  font_size: 8
-
-description-lg:
- extends: description
- font_size: 9
-
-description-md:
- extends: description
- font_size: 7
-
-description-sm:
-  extends: description
+  color: "#2e3546"
+  ellipsize: :end
+  # hint: "#FF0000"
   font_size: 7
-  height: 430
 
-description-xs:
+description_Item:
   extends: description
-  font_size: 6
-  height: 430
+  height: 450
+
+description_Enemy:
+  extends: description
+  height: 265
+
+description_Event:
+  extends: description
+  height: 450
+
+description_Location:
+  extends: description
+  height: 450
+
+description_Equipment:
+  extends: description
+  height: 370
 
 subtext:
   extends: card
   x: 100
-  y: 820
+  y: 840
   width: 625
-  height: 170
+  height: 130
   valign: middle
   align: center
-  color: '#2e3546'
+  color: "#2e3546"
   font_size: 7
 
 # The "cut line", without rounded corners
@@ -173,7 +177,7 @@ cut:
   y: 37.5
   width: 750
   height: 1050
-  stroke_color: '#e0ddd5'
+  stroke_color: "#e0ddd5"
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
@@ -183,4 +187,4 @@ safe:
   height: 975
   radius: 16
   dash: 3 3
-  stroke_color: '#e0ddd5'
+  stroke_color: "#e0ddd5"

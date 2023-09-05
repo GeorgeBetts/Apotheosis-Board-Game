@@ -8,13 +8,7 @@ layouts = ['combatdeck.yml']
 Squib::Deck.new cards: data['name'].size, layout: layouts do
   background layout: data['type']
   rect layout: 'block'
-  title_size = data['name'].map do |name|
-    case name.length
-    when 0..12 then 'title'
-    when 12..1000 then 'title-sm'
-    end
-  end
-  text str: data['name'], layout: title_size
+  text str: data['name'], layout: 'title'
   text str: data['bonus1value'], layout: 'bonus1'
   svg layout: 'bonus1icon',
       file: data['bonus1'].map { |n| n.nil? ? nil : "icons/#{n.downcase}.svg" }
@@ -26,13 +20,7 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
       file: data['bonus3'].map { |n| n.nil? ? nil : "icons/#{n.downcase}.svg" }
   svg layout: 'art',
       file: data['name'].map { |n| n.nil? ? nil : "icons/art/#{n.downcase}.svg" }
-  desc_size = data['description'].map do |description|
-    case description.length
-    when 0..100 then 'description'
-    when 100..1000 then 'description-sm'
-    end
-  end
-  text str: data['description'], layout: desc_size
+  text str: data['description'], layout: 'description'
   svg layout: 'costicon'
   text str: data['cost'], layout: 'cost'
   svg layout: 'playcosticon'

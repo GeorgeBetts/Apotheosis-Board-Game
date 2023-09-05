@@ -1,19 +1,19 @@
 card:
-  font: 'Palatino Linotype, Sans 18'
-  color: '#2e3546'
+  font: "Palatino Linotype, Sans 18"
+  color: "#2e3546"
+  spacing: 10
+  # hint: "#fff"
+  ellipsize: :autoscale
 
 title:
   extends: card
   x: 200
   y: 110
   width: 435
-  height: 50
+  height: 150
   align: center
+  valign: middle
   font_size: 16
-
-title-sm:
-  extends: title
-  font_size: 14
 
 art:
   x: 260
@@ -32,7 +32,9 @@ costicon:
 
 cost:
   extends: costicon
-  x: +150
+  x: += 72
+  y: += 9
+  valign: middle
   font_size: 14
 
 playcosticon:
@@ -46,14 +48,14 @@ playcosticon:
 
 playcost:
   extends: playcosticon
-  x: 715
-  y: 75
+  x: += 71
+  y: += 1
   font_size: 14
 
 bonus1:
   extends: card
   x: 100
-  y: 965
+  y: 975
   width: 295
   height: 80
   valign: middle
@@ -71,7 +73,7 @@ bonus1icon:
 bonus2:
   extends: card
   x: 350
-  y: 965
+  y: 975
   width: 295
   height: 80
   valign: middle
@@ -89,7 +91,7 @@ bonus2icon:
 bonus3:
   extends: card
   x: 0
-  y: 965
+  y: 975
   width: 125
   height: 80
   valign: middle
@@ -109,15 +111,11 @@ description:
   x: 100
   y: 645
   width: 625
-  height: 375
+  height: 325
   valign: middle
   align: center
-  color: '#2e3546'
+  color: "#2e3546"
   font_size: 10
-
-description-sm:
-  extends: description
-  font_size: 9
 
 block:
   x: 75
@@ -125,17 +123,17 @@ block:
   width: 675
   height: 975
   radius: 16
-  fill_color: '#e0ddd5'
-  stroke_color: '#e0ddd5'
+  fill_color: "#e0ddd5"
+  stroke_color: "#e0ddd5"
 
 attack:
-  color: '#703529'
+  color: "#703529"
 
 misc:
-  color: '#e0ddd5'
+  color: "#e0ddd5"
 
 defense:
-  color: '#2e3546'
+  color: "#2e3546"
 
 # The "cut line", without rounded corners
 cut:
@@ -143,7 +141,7 @@ cut:
   y: 37.5
   width: 750
   height: 1050
-  stroke_color: '#e0ddd5'
+  stroke_color: "#e0ddd5"
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
@@ -153,4 +151,4 @@ safe:
   height: 975
   radius: 16
   dash: 3 3
-  stroke_color: '#e0ddd5'
+  stroke_color: "#e0ddd5"
