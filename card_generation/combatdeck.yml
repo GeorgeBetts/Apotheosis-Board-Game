@@ -122,7 +122,6 @@ block:
   y: 75
   width: 675
   height: 975
-  radius: 16
   fill_color: "#e0ddd5"
   stroke_color: "#e0ddd5"
 
@@ -134,21 +133,3 @@ misc:
 
 defense:
   color: "#2e3546"
-
-# The "cut line", without rounded corners
-cut:
-  x: 37.5
-  y: 37.5
-  width: 750
-  height: 1050
-  stroke_color: "#e0ddd5"
-
-# The "safe zone" as defined by TheGameCrafter poker cards
-safe:
-  x: 75
-  y: 75
-  width: 675
-  height: 975
-  radius: 16
-  dash: 3 3
-  stroke_color: "#e0ddd5"

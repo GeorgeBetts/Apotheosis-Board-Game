@@ -5,7 +5,7 @@ require 'squib'
 data = Squib.csv file: 'csv/Encounters.csv'
 layouts = ['encounter.yml']
 
-Squib::Deck.new cards: data['name'].size, layout: layouts do
+Squib::Deck.new cards: data['name'].size, layout: layouts, dpi: 300, width: "1.875in", height: "2.75in" do
   background layout: data['type']
   rect layout: 'block'
   text str: data['name'], layout: 'title'
@@ -40,4 +40,5 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
              columns: 10, range: 183..251
   save_sheet trim: '0.125in', dir: '_output/encounter/underworld_2', prefix: 'encounter_',
              columns: 10, range: 252..289
+  save_pdf sprue: 'sprues/drivethrucards_mini.yml', dir: '_output/encounter', file: 'dtc_mini_output.pdf'
 end

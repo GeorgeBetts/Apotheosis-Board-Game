@@ -5,7 +5,7 @@ require 'squib'
 data = Squib.csv file: 'csv/CombatDeck.csv'
 layouts = ['combatdeck.yml']
 
-Squib::Deck.new cards: data['name'].size, layout: layouts do
+Squib::Deck.new cards: data['name'].size, layout: layouts, dpi: 300, width: "2.75in", height: "3.75in" do
   background layout: data['type']
   rect layout: 'block'
   text str: data['name'], layout: 'title'
@@ -33,4 +33,5 @@ Squib::Deck.new cards: data['name'].size, layout: layouts do
              columns: 10, range: 69..137
   save_sheet trim: '0.125in', dir: '_output/combatdeck/138_183',
              columns: 10, range: 138..183
+  save_pdf sprue: 'sprues/drivethrucards_poker.yml', dir: '_output/combatdeck', file: 'dtc_poker_output.pdf'
 end

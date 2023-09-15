@@ -15,5 +15,6 @@ When cards are generated they are placed in /card_generation/_output
 
 To generate cards, simply run one of the Ruby scripts:
 ```bash
-ruby card_generation/shopdeck.rb
+cd card_generation
+ruby encounter.rb
 ```

@@ -7,41 +7,43 @@ card:
 
 title:
   extends: card
-  x: 200
-  y: 110
-  width: 435
-  height: 150
+  x: 155
+  y: 72
+  width: 252.5
+  height: 100
   align: center
-  valign: middle
-  font_size: 16
+  valign: top
+  font_size: 10
 
 art:
-  x: 285
-  y: 270
-  width: 260
-  height: 260
+  x: 211.25
+  y: 170
+  width: 140
+  height: 140
 
 priorityicon:
   extends: card
-  x: 75
-  y: 75
-  width: 65
-  height: 65
+  x: 65
+  y: 65
+  width: 45
+  height: 45
   valign: middle
   file: icons/priority.svg
 
 priority:
   extends: priorityicon
-  x: += 72
-  y: += 9
+  x: += 55
+  y: += 7
   valign: middle
-  font_size: 14
+  font_size: 8
 
 block:
-  x: 75
-  y: 75
-  width: 675
-  height: 975
+  x: 55
+  y: 55
+  width: 452.5
+  height: 715
+  # width: 562.5
+  # height: 825
   radius: 16
   fill_color: "#e0ddd5"
   stroke_color: "#e0ddd5"
@@ -63,63 +65,63 @@ Equipment:
 
 bonus1:
   extends: card
-  x: 100
-  y: 975
-  width: 295
-  height: 80
+  x: 75
+  y: 726
+  width: 183.75
+  height: 45
   valign: middle
   align: right
-  font_size: 15
+  font_size: 8
 
 bonus1icon:
   extends: bonus1
-  x: +405
-  y: 975
-  width: 60
-  height: 60
+  x: 258.75
+  y: 720
+  width: 45
+  height: 45
   align: left
 
 bonus2:
   extends: card
-  x: 350
-  y: 975
-  width: 295
-  height: 80
+  x: 75
+  y: 726
+  width: 367.5
+  height: 45
   valign: middle
   align: right
-  font_size: 15
+  font_size: 8
 
 bonus2icon:
   extends: bonus2
-  x: +655
-  y: 975
-  width: 60
-  height: 60
+  x: 442.5
+  y: 720
+  width: 45
+  height: 45
   align: left
 
 bonus3:
   extends: card
-  x: 0
-  y: 975
-  width: 135
-  height: 80
+  x: 75
+  y: 726
+  width: 45
+  height: 45
   valign: middle
-  align: right
-  font_size: 15
+  align: left
+  font_size: 8
 
 bonus3icon:
   extends: bonus2
-  x: +140
-  y: 975
-  width: 60
-  height: 60
+  x: 100
+  y: 720
+  width: 45
+  height: 45
   align: left
 
 type:
   extends: card
-  x: 100
-  y: 540
-  width: 625
+  x: 75
+  y: 330
+  width: 412.5
   height: 35
   valign: top
   align: center
@@ -129,62 +131,40 @@ type:
 
 description:
   extends: card
-  x: 100
-  y: 572
-  width: 625
-  height: 280
+  x: 75
+  y: 380
+  width: 412.5
+  height: 372
   valign: middle
   align: center
   color: "#2e3546"
-  ellipsize: :end
   # hint: "#FF0000"
   font_size: 7
 
 description_Item:
   extends: description
-  height: 450
 
 description_Enemy:
   extends: description
-  height: 265
+  height: 190
 
 description_Event:
   extends: description
-  height: 450
 
 description_Location:
   extends: description
-  height: 450
 
 description_Equipment:
   extends: description
-  height: 370
+  height: 338
 
 subtext:
   extends: card
-  x: 100
-  y: 840
-  width: 625
+  x: 75
+  y: 578
+  width: 412.5
   height: 130
   valign: middle
   align: center
   color: "#2e3546"
-  font_size: 7
-
-# The "cut line", without rounded corners
-cut:
-  x: 37.5
-  y: 37.5
-  width: 750
-  height: 1050
-  stroke_color: "#e0ddd5"
-
-# The "safe zone" as defined by TheGameCrafter poker cards
-safe:
-  x: 75
-  y: 75
-  width: 675
-  height: 975
-  radius: 16
-  dash: 3 3
-  stroke_color: "#e0ddd5"
+  font_size: 6
