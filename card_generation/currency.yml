@@ -14,7 +14,7 @@ art:
 
 value:
   x: 100
-  y: 775
+  y: 782
   width: 295
   height: 100
   valign: middle
@@ -32,6 +32,7 @@ costicon:
 cost:
   extends: costicon
   x: +150
+  y: += 7
   font_size: 14
 
 icon:
@@ -43,25 +44,25 @@ icon:
   align: left
   file: icons/crown-coin.svg
 
-border:
-  x: 37.5
-  y: 37.5
-  width: 750
-  height: 1050
-  stroke_width: 40
-  radius: 16
+block:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  fill_color: "#e0ddd5"
+  stroke_color: "#e0ddd5"
 
 Copper:
-  extends: border
-  stroke_color: '#6F3A31'
+  color: "#6F3A31"
+  stroke_color: "#6F3A31"
 
 Silver:
-  extends: border
-  stroke_color: '#A9A9A9'
+  color: "#A9A9A9"
+  stroke_color: "#A9A9A9"
 
 Gold:
-  extends: border
-  stroke_color: '#DAA520'
+  color: "#DAA520"
+  stroke_color: "#DAA520"
 
 # The "cut line", without rounded corners
 cut:
