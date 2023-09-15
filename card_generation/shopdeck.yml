@@ -28,12 +28,12 @@ costicon:
   width: 45
   height: 45
   valign: middle
-  file: icons/priority.svg
+  file: icons/drachma.svg
 
 cost:
   extends: costicon
   x: += 55
-  y: += 7
+  y: += 5
   valign: middle
   font_size: 8
 

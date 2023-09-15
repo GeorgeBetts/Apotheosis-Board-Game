@@ -1,214 +1,243 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Apotheosis Game Board</title>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="characters.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="characters.css" />
+  </head>
 
-<body>
+  <body
+    style="
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+    "
+  >
+    <!-- <div class="character">
+      <h1>Hoplite</h1>
+      <p>
+        Start the game with the Hoplite Shield equipment card.<br /><br /><br />
+
+        All combat cards which provide defense also provide +1 Attack Power.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Ruins
+      </p>
+      <h2 class="life">20</h2>
+      <h2 class="strength">3</h2>
+      <h2 class="dexterity">1</h2>
+      <h2 class="intelligence">0</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Spartan</h1>
+      <p>
+        Start the game with the Spartan Spear equipment card.<br /><br /><br />
+
+        Ignore enemy resistances to Physical.<br /><br /><br />
+
+        On the turn you play an Attack card, they are worth 2 Attack Power
+        instead of the usual 1.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - City
+      </p>
+      <h2 class="life">20</h2>
+      <h2 class="strength">4</h2>
+      <h2 class="dexterity">0</h2>
+      <h2 class="intelligence">0</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Cutpurse</h1>
+      <p style="font-size: 18px !important">
+        Start the game with the Sika equipment card.<br /><br /><br />
+
+        Copper also provides +1 Attack Power. You cannot purchase Silver or
+        Gold<br /><br />
+
+        If you steal a card (any type) from another player, in addition to your
+        normal reward, preview the top card of their deck, if it has currency
+        value then add this to your hand, if not, return it to the top of their
+        deck.<br /><br />
+        You may pay 8 Drachma to shuffle a destroyed <i>Pickpocket</i> card back
+        into the combat deck.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Agora Marketplace
+      </p>
+      <h2 class="life">18</h2>
+      <h2 class="strength">1</h2>
+      <h2 class="dexterity">2</h2>
+      <h2 class="intelligence">1</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Merchant</h1>
+      <p>
+        Start the game with the Leather Robe equipment card.<br /><br /><br />
+
+        In the buy phase, you may discard the top card of their deck, if you do
+        then gain +1 Currency this turn.<br /><br /><br />
+
+        Start the game with an extra Drachma and 1 extra Silver card in your
+        personal combat deck.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Agora Marketplace
+      </p>
+      <h2 class="life">18</h2>
+      <h2 class="strength">0</h2>
+      <h2 class="dexterity">2</h2>
+      <h2 class="intelligence">2</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Magi</h1>
+      <p>
+        Start the game with the Magi Scepter equipment card.<br /><br /><br />
+
+        In your draw phase, you can choose to discard a card from your hand, if
+        you do, draw an additional card.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Shrine to Demeter
+      </p>
+      <h2 class="life">16</h2>
+      <h2 class="strength">0</h2>
+      <h2 class="dexterity">0</h2>
+      <h2 class="intelligence">4</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Exiled</h1>
+      <p>
+        No stats automatically allocated. Before play, draw 5 stat cards and
+        allocate them to your character as you wish.<br /><br /><br />
+
+        Stat cards cost 1 less currency to purchase.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Docks
+      </p>
+      <h2 class="life">25</h2>
+      <h2 class="strength">-</h2>
+      <h2 class="dexterity">-</h2>
+      <h2 class="intelligence">-</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Archer</h1>
+      <p>
+        Start the game with the Bow equipment card.<br /><br /><br />
+
+        At the start of your turn, you may attack any face up enemy cards up to
+        two tiles away, in addition to your normal action.<br /><br /><br />
+
+        You may discard the top card of your personal deck to gain +1 Attack
+        Power.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Shrine to Artemis
+      </p>
+      <h2 class="life">16</h2>
+      <h2 class="strength">0</h2>
+      <h2 class="dexterity">3</h2>
+      <h2 class="intelligence">1</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Healer</h1>
+      <p>
+        Start the game with 5 bandage item cards.<br /><br /><br />
+
+        Healing cards played in battle also provide +2 Attack Power.<br /><br /><br />
+
+        When you land on another character you may offer them your healing
+        services to replish up to 3 health for 1 Drachma each.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Settlement
+      </p>
+      <h2 class="life">21</h2>
+      <h2 class="strength">0</h2>
+      <h2 class="dexterity">1</h2>
+      <h2 class="intelligence">3</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Assassin</h1>
+      <p>
+        Start the game with the Dagger equipment card.<br /><br /><br />
+
+        In your draw phase if you draw no cards which provide Attack Power then
+        draw 3 more cards.<br /><br /><br />
+
+        In your draw phase if every card drawn provides Attack Power, then you
+        can immediately play one with 0 play cost, then draw an additional
+        card.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - City
+      </p>
+      <h2 class="life">17</h2>
+      <h2 class="strength">1</h2>
+      <h2 class="dexterity">2</h2>
+      <h2 class="intelligence">1</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Alchemist</h1>
+      <p>
+        Start the game with the Toga equipment card.<br /><br /><br />
+
+        In your draw phase if you draw no cards which provide Currency then gain
+        currency equal to your total stats. You may not purchase a stat using
+        currency gained in this way.<br /><br /><br />
+
+        You may destroy a stat card to destroy one currency card in your
+        hand.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Village
+      </p>
+      <h2 class="life">18</h2>
+      <h2 class="strength">1</h2>
+      <h2 class="dexterity">0</h2>
+      <h2 class="intelligence">3</h2>
+    </div> -->
+    <!-- <div class="character">
+      <h1>Charioteer</h1>
+      <p style="font-size: 18px !important">
+        Start the game with the Chariot equipment card.<br /><br /><br />
+
+        Your starting maximum movement is 6.<br /><br />
+
+        Your starting free movement is 2.<br /><br />
+
+        If you move through a face up enemy card in your encounter phase you may
+        move this enemy to the space you land on and encounter this enemy in
+        addition to encountering the space.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Village
+      </p>
+      <h2 class="life">22</h2>
+      <h2 class="strength">2</h2>
+      <h2 class="dexterity">2</h2>
+      <h2 class="intelligence">0</h2>
+    </div> -->
     <div class="character">
-        <h1>Hoplite</h1>
-        <p>Start the game with the Hoplite Shield equipment card.<br><br><br>
+      <h1>Scholar</h1>
+      <p>
+        Start the game with the Tome equipment card.<br /><br /><br />
 
-            All combat cards which provide defense also provide +1 Attack Power.<br><br><br>
+        Once per turn you may preview the top card of any deck.<br /><br /><br />
 
-            Starting Location:<br> Hellenic Plains - Ruins
-        </p>
-        <h2 class="life">20</h2>
-        <h2 class="strength">3</h2>
-        <h2 class="dexterity">1</h2>
-        <h2 class="intelligence">0</h2>
+        You may purchase items from the peddler deck at any time.<br /><br /><br />
+
+        Starting Location:<br />
+        Hellenic Plains - Village
+      </p>
+      <h2 class="life">18</h2>
+      <h2 class="strength">1</h2>
+      <h2 class="dexterity">1</h2>
+      <h2 class="intelligence">2</h2>
     </div>
-    <!-- <div class="character">
-        <h1>Spartan</h1>
-        <p>Start the game with the Spartan Spear equipment card.<br><br><br>
-
-            Ignore enemy resistances to Physical.<br><br><br>
-
-            On the turn you play an Attack card, they are worth 2 Attack Power instead of the usual 1.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - City
-        </p>
-        <h2 class="life">20</h2>
-        <h2 class="strength">4</h2>
-        <h2 class="dexterity">0</h2>
-        <h2 class="intelligence">0</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Cutpurse</h1>
-        <p>Start the game with the Sika equipment card.<br><br><br>
-
-            Copper can be used as +1 Attack Power. You cannot purchase Silver or Gold<br><br><br>
-
-            If you defeat another character, in addition to your normal reward preview the top card of their deck, if it has currency value then add this to your hand, if not, return it to the top of
-            their deck.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Agora Marketplace
-        </p>
-        <h2 class="life">18</h2>
-        <h2 class="strength">1</h2>
-        <h2 class="dexterity">2</h2>
-        <h2 class="intelligence">1</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Merchant</h1>
-        <p>Start the game with the Leather Robe equipment card.<br><br><br>
-
-            In the buy phase, the Merchant can discard the top card of their deck, if they do they gain +1 Currency this turn.<br><br><br>
-
-            Start the game with an extra Drachma and 1 extra Silver card in your personal combat deck.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Agora Marketplace
-        </p>
-        <h2 class="life">18</h2>
-        <h2 class="strength">0</h2>
-        <h2 class="dexterity">2</h2>
-        <h2 class="intelligence">2</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Magi</h1>
-        <p>Start the game with the Magi Scepter equipment card.<br><br><br>
-
-            In your draw phase, you can choose to discard a card from your hand, if you do, draw an additional card.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Shrine to Demeter
-        </p>
-        <h2 class="life">16</h2>
-        <h2 class="strength">0</h2>
-        <h2 class="dexterity">0</h2>
-        <h2 class="intelligence">4</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Beast Tamer</h1>
-        <p>Start the game with the Bullwhip equipment card.<br><br>
-
-            When you defeat an Animal or Monster, instead of taking the Enemy Reward card, you may instead gain it into your play area. Enemy cards in your play area
-            can be used in your encounter phase for one Dexterity play cost each.<br><br>
-
-            Playing an enemy card in your play area will have a different effect based on it's reward:<br>
-            <b>Drachma:</b> +1 Currency<br>
-            <b>Movement or travel:</b> +1 Free Movement<br>
-            <b>Draw, reveal or steal Cards:</b> Draw a card<br>
-            <b>Augment:</b> Augment one card with the same element as the reward<br>
-            <b> Heal:</b> Replenish one health<br>
-            <b>Other:</b> +1 Attack Power<br>
-
-            <br><br>
-            The maximum number of enemy cards you can have in your play area is equal to your Strength<br><br>
-
-            If you are defeated in battle you must lose a random Enemy card from your play area.<br><br>
-
-            Starting Location:<br> Hellenic Plains - Forest
-        </p>
-        <h2 class="life">18</h2>
-        <h2 class="strength">2</h2>
-        <h2 class="dexterity">1</h2>
-        <h2 class="intelligence">1</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Exiled</h1>
-        <p>No stats automatically allocated. Before play, draw 5 stat cards and allocate them to your character as you wish.<br><br><br>
-
-            Stat cards cost 1 less currency to purchase.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Docks
-        </p>
-        <h2 class="life">25</h2>
-        <h2 class="strength">-</h2>
-        <h2 class="dexterity">-</h2>
-        <h2 class="intelligence">-</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Archer</h1>
-        <p>Start the game with the Bow equipment card.<br><br><br>
-
-            You may attack face up enemy cards up to two tiles away.<br><br><br>
-
-            You may discard the top card of your personal deck to gain +1 Attack Power.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Shrine to Artemis
-        </p>
-        <h2 class="life">16</h2>
-        <h2 class="strength">0</h2>
-        <h2 class="dexterity">3</h2>
-        <h2 class="intelligence">1</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Healer</h1>
-        <p>Start the game with 5 bandage item cards.<br><br><br>
-
-            Healing cards played in battle also provide +2 Attack Power.<br><br><br>
-
-            When you land on another character you may offer them your healing services to replish up to 3 health for 1 Drachma each.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Settlement
-        </p>
-        <h2 class="life">21</h2>
-        <h2 class="strength">0</h2>
-        <h2 class="dexterity">1</h2>
-        <h2 class="intelligence">3</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Assassin</h1>
-        <p>Start the game with the Dagger equipment card.<br><br><br>
-
-            In your draw phase if you draw no cards which provide Attack Power then draw 3 more cards.<br><br><br>
-
-            In your draw phase if every card drawn provides Attack Power, then you can immediately play one and keep it in your play area until your next discard phase, then draw an additional
-            card.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - City
-        </p>
-        <h2 class="life">17</h2>
-        <h2 class="strength">1</h2>
-        <h2 class="dexterity">2</h2>
-        <h2 class="intelligence">1</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Alchemist</h1>
-        <p>Start the game with the Toga equipment card.<br><br><br>
-
-            In your draw phase if you draw no cards which provide Currency then gain currency equal to your total stats. You may not purchase a stat using currency gained in this way.<br><br><br>
-
-            You may destroy a stat card to destroy one currency card in your hand.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Village
-        </p>
-        <h2 class="life">18</h2>
-        <h2 class="strength">1</h2>
-        <h2 class="dexterity">0</h2>
-        <h2 class="intelligence">3</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Charioteer</h1>
-        <p>Start the game with the Chariot equipment card.<br><br><br>
-
-            Your starting maximum movement is 6.<br><br><br>
-
-            Your starting free movement is 2.<br><br><br>
-
-            If you move through an enemy in your encounter phase you may move this enemy to the space you land on and encounter this enemy in addition to encountering the space.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Village
-        </p>
-        <h2 class="life">22</h2>
-        <h2 class="strength">2</h2>
-        <h2 class="dexterity">2</h2>
-        <h2 class="intelligence">0</h2>
-    </div> -->
-    <!-- <div class="character">
-        <h1>Scholar</h1>
-        <p>Start the game with the Tome equipment card.<br><br><br>
-
-            At the start of your encounter phase you may take the top card of the encounter discard pile in your current region and place it on top of its deck.<br><br><br>
-
-            Starting Location:<br> Hellenic Plains - Village
-        </p>
-        <h2 class="life">18</h2>
-        <h2 class="strength">1</h2>
-        <h2 class="dexterity">1</h2>
-        <h2 class="intelligence">2</h2>
-    </div> -->
-</body>
+  </body>
+</html>

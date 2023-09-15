@@ -1,55 +1,55 @@
 body {
-    font-family: 'Libre Baskerville', serif;
-    color: #2e3546;
+  font-family: "Libre Baskerville", serif;
+  color: #2e3546;
 }
 
 .character {
- width: 1189px;   
- height: 755px;
- background-image: url(img/charactersheet.png);
- background-size: cover;
- position: relative;
+  width: 1189px;
+  height: 755px;
+  background-image: url(img/charactersheet-updated.png);
+  background-size: cover;
+  position: relative;
 }
 
 .character h1 {
-    position: absolute;
-    top: 84px;
-    right: 263px;
+  position: absolute;
+  top: 84px;
+  right: 263px;
 }
 
 .character p {
-    font-size: 20px;
-    position: absolute;
-    top: 195px;
-    right: 177px;
-    width: 452px;
-    text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 195px;
+  right: 177px;
+  width: 452px;
+  text-align: center;
 }
 
 .character .life {
-    position: absolute;
-    top: 240px;
-    right: 90px;
-    font-size: 40px;
+  position: absolute;
+  top: 240px;
+  right: 90px;
+  font-size: 40px;
 }
 
 .character .strength {
-    position: absolute;
-    top: 340px;
-    right: 90px;
-    font-size: 40px;
+  position: absolute;
+  top: 340px;
+  right: 90px;
+  font-size: 40px;
 }
 
 .character .dexterity {
-    position: absolute;
-    top: 419px;
-    right: 90px;
-    font-size: 40px;
+  position: absolute;
+  top: 419px;
+  right: 90px;
+  font-size: 40px;
 }
 
 .character .intelligence {
-    position: absolute;
-    top: 508px;
-    right: 90px;
-    font-size: 40px;
+  position: absolute;
+  top: 508px;
+  right: 90px;
+  font-size: 40px;
 }
