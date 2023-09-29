@@ -1,0 +1,36 @@
+card:
+  font: "Palatino Linotype, Sans 18"
+  color: "#2e3546"
+  spacing: 10
+  hint: "#fff"
+  ellipsize: :autoscale
+
+title:
+  extends: card
+  x: 110.5
+  y: 110
+  width: 904
+  height: 250
+  align: center
+  valign: middle
+  font_size: 19
+
+description:
+  extends: card
+  x: 110.5
+  y: 400
+  width: 904
+  height: 625
+  valign: middle
+  align: center
+  color: "#2e3546"
+  font_size: 12
+
+block:
+  x: 75
+  y: 75
+  width: 975
+  height: 1425
+  radius: 16
+  fill_color: "#e0ddd5"
+  stroke_color: "#e0ddd5"

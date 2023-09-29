@@ -27,11 +27,11 @@ Squib::Deck.new cards: data['name'].size, layout: layouts, dpi: 300, width: "2.7
   text str: data['playcost'], layout: 'playcost'
   save_png prefix: 'combatdeck_', dir: '_output/combatdeck'
   save_pdf trim: '0.125in', dir: '_output/combatdeck', file: 'combatdeck.pdf'
-  save_sheet trim: '0.125in', dir: '_output/combatdeck/00_68',
+  save_sheet trim: '0.125in', dir: '_output/combatdeck', prefix: '00_68_',
              columns: 10, range: 0..68
-  save_sheet trim: '0.125in', dir: '_output/combatdeck/69_137',
+  save_sheet trim: '0.125in', dir: '_output/combatdeck', prefix: '69_137_',
              columns: 10, range: 69..137
-  save_sheet trim: '0.125in', dir: '_output/combatdeck/138_183',
+  save_sheet trim: '0.125in', dir: '_output/combatdeck', prefix: '138_183_',
              columns: 10, range: 138..183
   save_pdf sprue: 'sprues/drivethrucards_poker.yml', dir: '_output/combatdeck', file: 'dtc_poker_output.pdf'
 end

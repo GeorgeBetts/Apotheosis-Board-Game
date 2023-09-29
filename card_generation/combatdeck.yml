@@ -122,6 +122,7 @@ block:
   y: 75
   width: 675
   height: 975
+  radius: 16
   fill_color: "#e0ddd5"
   stroke_color: "#e0ddd5"
 

@@ -7,24 +7,24 @@ card:
 
 title:
   extends: card
-  x: 155
-  y: 72
+  x: 173.75
+  y: 85
   width: 252.5
-  height: 100
+  height: 80
   align: center
   valign: top
-  font_size: 10
+  font_size: 9
 
 art:
-  x: 211.25
+  x: 240
   y: 170
-  width: 140
-  height: 140
+  width: 120
+  height: 120
 
 priorityicon:
   extends: card
-  x: 65
-  y: 65
+  x: 90
+  y: 85
   width: 45
   height: 45
   valign: middle
@@ -32,17 +32,17 @@ priorityicon:
 
 priority:
   extends: priorityicon
-  x: += 55
+  x: += 45
   y: += 7
   valign: middle
   font_size: 8
 
 block:
-  x: 55
-  y: 55
-  width: 452.5
-  height: 715
-  # width: 562.5
+  x: 75
+  y: 75
+  width: 450
+  height: 675
+  # width: 600
   # height: 825
   radius: 16
   fill_color: "#e0ddd5"
@@ -65,9 +65,9 @@ Equipment:
 
 bonus1:
   extends: card
-  x: 75
-  y: 726
-  width: 183.75
+  x: 93.75
+  y: 695
+  width: 182.5
   height: 45
   valign: middle
   align: right
@@ -75,17 +75,17 @@ bonus1:
 
 bonus1icon:
   extends: bonus1
-  x: 258.75
-  y: 720
+  x: 277.5
+  y: 690
   width: 45
   height: 45
   align: left
 
 bonus2:
   extends: card
-  x: 75
-  y: 726
-  width: 367.5
+  x: 93.75
+  y: 695
+  width: 366.25
   height: 45
   valign: middle
   align: right
@@ -93,34 +93,34 @@ bonus2:
 
 bonus2icon:
   extends: bonus2
-  x: 442.5
-  y: 720
+  x: 461.25
+  y: 690
   width: 45
   height: 45
   align: left
 
 bonus3:
   extends: card
-  x: 75
-  y: 726
-  width: 45
+  x: 93.75
+  y: 695
+  width: 35
   height: 45
   valign: middle
-  align: left
+  align: center
   font_size: 8
 
 bonus3icon:
   extends: bonus2
-  x: 100
-  y: 720
+  x: 134
+  y: 692
   width: 45
   height: 45
   align: left
 
 type:
   extends: card
-  x: 75
-  y: 330
+  x: 93.75
+  y: 300
   width: 412.5
   height: 35
   valign: top
@@ -131,8 +131,8 @@ type:
 
 description:
   extends: card
-  x: 75
-  y: 380
+  x: 93.75
+  y: 350
   width: 412.5
   height: 372
   valign: middle
@@ -160,8 +160,8 @@ description_Equipment:
 
 subtext:
   extends: card
-  x: 75
-  y: 578
+  x: 93.75
+  y: 548
   width: 412.5
   height: 130
   valign: middle

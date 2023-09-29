@@ -27,9 +27,11 @@ Squib::Deck.new cards: data['name'].size, layout: layouts, dpi: 300, width: "1.8
   text str: data['cost'], layout: 'cost'
   save_png prefix: 'shop_', dir: '_output/shop'
   save_pdf trim: '0.125in', dir: '_output/shop', file: 'shop.pdf'
-  save_sheet trim: '0.125in', dir: '_output/shop/shopdeck/00_68', prefix: 'shop_',
+  save_sheet trim: '0.125in', dir: '_output/shop', prefix: 'shop_00_68_',
              columns: 10, range: 0..68
-  save_sheet trim: '0.125in', dir: '_output/shop/shopdeck/69_69', prefix: 'shop_',
+  save_sheet trim: '0.125in', dir: '_output/shop', prefix: 'shop_69_69_',
              columns: 10, range: 69..69
+  save_sheet trim: '0.125in', dir: '_output/shop', prefix: 'shop_fortabletopsim_69_69_',
+             columns: 10, range: 55..69
   save_pdf sprue: 'sprues/drivethrucards_mini.yml', dir: '_output/shop', file: 'dtc_mini_output.pdf'
 end

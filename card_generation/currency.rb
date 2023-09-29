@@ -21,9 +21,9 @@ Squib::Deck.new cards: data['name'].size, layout: layouts, dpi: 300, width: "2.7
        color: '#2e3546'
   save_png prefix: 'currency_', dir: '_output/currency'
   save_pdf trim: '0.125in', dir: '_output/currency', file: 'currency.pdf'
-  save_sheet trim: '0.125in', dir: '_output/currency/00_68',
+  save_sheet trim: '0.125in', dir: '_output/currency', prefix: '00_68_',
              columns: 10, range: 0..68
-  save_sheet trim: '0.125in', dir: '_output/currency/69_80',
+  save_sheet trim: '0.125in', dir: '_output/currency', prefix: '69_80_',
              columns: 10, range: 69..80
   save_pdf sprue: 'sprues/drivethrucards_poker.yml', dir: '_output/currency', file: 'dtc_poker_output.pdf'
 end

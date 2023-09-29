@@ -5,7 +5,7 @@ require 'squib'
 data = Squib.csv file: 'csv/Encounters.csv'
 layouts = ['encounter.yml']
 
-Squib::Deck.new cards: data['name'].size, layout: layouts, dpi: 300, width: "1.875in", height: "2.75in" do
+Squib::Deck.new cards: data['name'].size, layout: layouts, dpi: 300, width: "2in", height: "2.75in" do
   background layout: data['type']
   rect layout: 'block'
   text str: data['name'], layout: 'title'
@@ -28,17 +28,17 @@ Squib::Deck.new cards: data['name'].size, layout: layouts, dpi: 300, width: "1.8
   text str: data['priority'], layout: 'priority'
   save_png prefix: 'encounter_', dir: '_output/encounter'
   save_pdf trim: '0.125in', dir: '_output/encounter', file: 'encounter.pdf'
-  save_sheet trim: '0.125in', dir: '_output/encounter/hellenic_1', prefix: 'encounter_',
+  save_sheet trim: '0.125in', dir: '_output/encounter/hellenic', prefix: 'encounter_1_',
              columns: 10, range: 0..68
-  save_sheet trim: '0.125in', dir: '_output/encounter/hellenic_2', prefix: 'encounter_',
+  save_sheet trim: '0.125in', dir: '_output/encounter/hellenic', prefix: 'encounter_2_',
              columns: 10, range: 69..103
-  save_sheet trim: '0.125in', dir: '_output/encounter/arcadia_1', prefix: 'encounter_',
+  save_sheet trim: '0.125in', dir: '_output/encounter/arcadia', prefix: 'encounter_1_',
              columns: 10, range: 104..172
-  save_sheet trim: '0.125in', dir: '_output/encounter/arcadia_2', prefix: 'encounter_',
-             columns: 10, range: 173..182
-  save_sheet trim: '0.125in', dir: '_output/encounter/underworld_1', prefix: 'encounter_',
+  save_sheet trim: '0.125in', dir: '_output/encounter/arcadia', prefix: 'encounter_2_',
+             columns: 10, range: 172..182
+  save_sheet trim: '0.125in', dir: '_output/encounter/underworld', prefix: 'encounter_1_',
              columns: 10, range: 183..251
-  save_sheet trim: '0.125in', dir: '_output/encounter/underworld_2', prefix: 'encounter_',
+  save_sheet trim: '0.125in', dir: '_output/encounter/underworld', prefix: 'encounter_2_',
              columns: 10, range: 252..289
-  save_pdf sprue: 'sprues/drivethrucards_mini.yml', dir: '_output/encounter', file: 'dtc_mini_output.pdf'
+#   save_pdf sprue: 'sprues/drivethrucards_mini.yml', dir: '_output/encounter', file: 'dtc_mini_output.pdf'
 end
